@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Go To Eat Map</title>
+        <style>
+            body {
+                background-color: #adf6ff;
+            }
+
+            .japan_map {
+                position: relative;
+                box-sizing: border-box;
+                margin: 0 auto;
+                display: table;
+                background-color: #adf6ff;
+            }
+
+            .japan_map img {
+                max-width: 100%;
+                height: auto;
+                border: 0;
+                -webkit-backface-visibility: hidden;
+            }
+
+            .japan_map .area_btn {
+                position: absolute;
+                z-index: 1;
+                box-sizing: border-box;
+                cursor: pointer;
+                border: 3px solid #333333;
+                border-radius: 5px;
+                background-color: #FFF;
+                padding: 0.2em auto;
+                font-weight: bold;
+                text-align: center;
+                white-space: nowrap;
+            }
+
+            .japan_map .area_btn.area1 {
+                top: 30%;
+                right: 0;
+                width: 30%;
+            }
+
+            .japan_map .area_btn.area2 {
+                top: 67%;
+                right: 11%;
+                width: 13%;
+            }
+
+            .japan_map .area_btn.area3 {
+                top: 56%;
+                right: 27.5%;
+                width: 13%;
+            }
+
+            .japan_map .area_btn.area4 {
+                top: 65%;
+                right: 44%;
+                width: 13%;
+            }
+
+            .japan_map .area_btn.area5 {
+                top: 52%;
+                left: 12%;
+                width: 25%;
+            }
+
+            .japan_map .area_btn.area6 {
+                top: 70%;
+                left: 0;
+                width: 25%;
+            }
+
+            .japan_map .area_overlay {
+                display: none;
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 0;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                background-color: #111;
+                opacity: 0.5;
+                cursor: pointer;
+            }
+
+            .japan_map .pref_area {
+                display: none;
+            }
+
+            .japan_map .pref_list {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateY(-50%) translateX(-50%);
+                -webkit-transform: translateY(-50%) translateX(-50%);
+                z-index: 3;
+                box-sizing: border-box;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+                width: 90%;
+                background-color: #FFF;
+            }
+
+            .japan_map .pref_list>div {
+                box-sizing: border-box;
+                width: 50%;
+                border: 1px solid #CCC;
+                font-weight: bold;
+                text-align: center;
+                padding: 0.5em;
+                cursor: pointer;
+            }
+
+            .pref_list .disabled {
+                background-color: darkgray;
+            }
+
+            @media screen and (max-width: 480px) {
+
+                .japan_map .area_btn {
+                    font-size: 4vw;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="japan_map">
+            <img src="japan_map.png">
+            <span class="area_btn area1" data-area="1">北海道・東北</span>
+            <span class="area_btn area2" data-area="2">関東</span>
+            <span class="area_btn area3" data-area="3">中部</span>
+            <span class="area_btn area4" data-area="4">近畿</span>
+            <span class="area_btn area5" data-area="5">中国・四国</span>
+            <span class="area_btn area6" data-area="6">九州・沖縄</span>
+
+            <div class="area_overlay"></div>
+            <div class="pref_area">
+                <div class="pref_list" data-list="1">
+                    <div data-id="1">北海道</div>
+                    <div data-id="2">青森県</div>
+                    <div data-id="3">岩手県</div>
+                    <div data-id="4">宮城県</div>
+                    <div data-id="5">秋田県</div>
+                    <div data-id="6">山形県</div>
+                    <div data-id="7">福島県</div>
+                    <div></div>
+                </div>
+
+                <div class="pref_list" data-list="2">
+                    <div data-id="8">茨城県</div>
+                    <div data-id="9">栃木県</div>
+                    <div data-id="10">群馬県</div>
+                    <div data-id="11">埼玉県</div>
+                    <div data-id="12">千葉県</div>
+                    <div data-id="13">東京都</div>
+                    <div data-id="14">神奈川県</div>
+                    <div></div>
+                </div>
+
+                <div class="pref_list" data-list="3">
+                    <div data-id="15">新潟県‎</div>
+                    <div data-id="16">富山県‎</div>
+                    <div data-id="17">石川県‎</div>
+                    <div data-id="18">福井県‎</div>
+                    <div data-id="19">山梨県‎</div>
+                    <div data-id="20">長野県‎</div>
+                    <div data-id="21">岐阜県</div>
+                    <div data-id="22">静岡県</div>
+                    <div data-id="23">愛知県‎</div>
+                    <div></div>
+                </div>
+
+                <div class="pref_list" data-list="4">
+                    <div data-id="24">三重県</div>
+                    <div data-id="25">滋賀県</div>
+                    <div data-id="26">京都府</div>
+                    <div data-id="27">大阪府</div>
+                    <div data-id="28">兵庫県</div>
+                    <div data-id="29">奈良県</div>
+                    <div data-id="30">和歌山県</div>
+                    <div></div>
+                </div>
+
+                <div class="pref_list" data-list="5">
+                    <div data-id="31">鳥取県</div>
+                    <div data-id="32">島根県</div>
+                    <div data-id="33">岡山県</div>
+                    <div data-id="34">広島県</div>
+                    <div data-id="35">山口県</div>
+                    <div data-id="36">徳島県</div>
+                    <div data-id="37">香川県</div>
+                    <div data-id="38">愛媛県</div>
+                    <div data-id="39">高知県</div>
+                    <div></div>
+                </div>
+
+                <div class="pref_list" data-list="6">
+                    <div data-id="40">福岡県</div>
+                    <div data-id="41">佐賀県</div>
+                    <div data-id="42">長崎県</div>
+                    <div data-id="43">熊本県</div>
+                    <div data-id="44">大分県</div>
+                    <div data-id="45">宮崎県</div>
+                    <div data-id="46">鹿児島県</div>
+                    <div data-id="47">沖縄県</div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script>
+            $(function () {
+                const Prefectures = {
+                    1: "hokkaido",
+                    2: "aomori",
+                    3: "iwate",
+                    4: "miyagi",
+                    5: "akita",
+                    6: "yamagata",
+                    7: "fukushima",
+                    8: "ibaraki",
+                    9: "tochigi",
+                    10: "gunma",
+                    11: "saitama",
+                    12: "chiba",
+                    13: "tokyo",
+                    14: "kanagawa",
+                    15: "niigata",
+                    16: "toyama",
+                    17: "ishikawa",
+                    18: "fukui",
+                    19: "yamanashi",
+                    20: "nagano",
+                    21: "gifu",
+                    22: "shizuoka",
+                    23: "aichi",
+                    24: "mie",
+                    25: "shiga",
+                    26: "kyoto",
+                    27: "osaka",
+                    28: "hyogo",
+                    29: "nara",
+                    30: "wakayama",
+                    31: "tottori",
+                    32: "shimane",
+                    33: "okayama",
+                    34: "hiroshima",
+                    35: "yamaguchi",
+                    36: "tokushima",
+                    37: "kagawa",
+                    38: "ehime",
+                    39: "kochi",
+                    40: "fukuoka",
+                    41: "saga",
+                    42: "nagasaki",
+                    43: "kumamoto",
+                    44: "oita",
+                    45: "miyazaki",
+                    46: "kagoshima",
+                    47: "okinawa"
+                };
+
+                $.ajax({
+                    url: "https://api.github.com/repos/book000/gotoeat_map/git/trees/master",
+                    dataType: "json",
+                    timespan: 10000
+                }).done(function (data, textStatus, xhr) {
+                    let pref_paths = {};
+                    for (let pref_id in Prefectures) {
+                        pref_paths[pref_id + "_" + Prefectures[pref_id]] = pref_id;
+                    }
+                    for (let item of data.tree) {
+                        if (pref_paths[item.path]) {
+                            console.log(item.path)
+                            delete pref_paths[item.path];
+                        }
+                    }
+                    Object.values(pref_paths).forEach(function (pref_id) {
+                        $("div[data-id='" + pref_id + "']").addClass("disabled")
+                    })
+                }).fail(function (xhr, textStatus, error) {
+                    console.error("Get items failed: " + error);
+                });
+
+                $(".area_btn").click(function () {
+                    $(".area_overlay").show();
+                    $(".pref_area").show();
+                    const area = $(this).data("area");
+                    $("[data-list]").hide();
+                    $("[data-list='" + area + "']").show();
+                });
+
+                $(".area_overlay").click(function () {
+                    prefReset();
+                });
+
+                $(".pref_list [data-id]:not(.disabled)").click(function () {
+                    if ($(this).data("id")) {
+                        const id = $(this).data("id");
+                        const prefName = Prefectures[id];
+
+                        location.href = id + "_" + prefName + "/index.html";
+                    }
+                });
+
+                function prefReset() {
+                    $("[data-list]").hide();
+                    $(".pref_area").hide();
+                    $(".area_overlay").hide();
+                }
+            });
+        </script>
+    </body>
+</html>

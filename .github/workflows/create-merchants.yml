@@ -1,0 +1,40 @@
+name: Create merchants.json
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 */3 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10800
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python3
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: |
+          python -m pip install -U pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Run get merchants
+        env:
+          YAHOO_APPID: ${{ secrets.YAHOO_APPID }}
+        run: |
+          cd ..
+          python -m gotoeat_map
+          cd gotoeat_map
+      - name: Commit
+        run: |
+          git config --local user.name "GoToEat Bot"
+          git config --local user.email secret.EMAIL
+          git status | grep modified && git add */merchants.json && git commit -v -m "[Bot] GitHub Actions : Auto build / $(date +'%Y-%m-%d')" || true
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token:  ${{ secrets.GITHUB_TOKEN }}
