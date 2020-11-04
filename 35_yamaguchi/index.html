@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GoToEat Map - Yamaguchi</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin="" />
+        <style>
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 100%;
+            }
+
+            #map {
+                height: 100%;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdn.geolonia.com/community-geocoder.js"></script>
+        <script>
+            main();
+
+            function main() {
+                map = L.map("map").setView([34.185, 131.471], 13);
+                map.locate({
+                    setView: "true"
+                });
+                L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                    attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+                }).addTo(map);
+
+                axios.get("merchants.json")
+                    .then(response => {
+                        for (one of response.data.data) {
+                            const title = one.name;
+                            const address = one.address;
+                            const postal_code = one.postal_code;
+                            const tel = one.tel;
+                            if (one.lat == undefined || one.lat == null) {
+                                getLatLng(address, (latlng) => {
+                                    L.marker([latlng.lat, latlng.lng], {
+                                            title: title
+                                        })
+                                        .addTo(map)
+                                        .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
+                                            tel)
+                                });
+                            } else {
+                                L.marker([one.lat, one.lng], {
+                                        title: title
+                                    })
+                                    .addTo(map)
+                                    .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
+                            }
+                        }
+                    }).catch(error => {
+                        alert("Error: " + error.message);
+                        console.error(error);
+                    });
+            }
+        </script>
+    </body>
+</html>

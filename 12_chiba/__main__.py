@@ -25,8 +25,6 @@ def main():
         }
     findMerchants = []
 
-    # Get Municipalities
-    municipalitys = []
     response = requests.get(
         "https://gotoeat-chiba.liny.jp/map/api/data.json?x1=30&x2=40&y1=130&y2=150")
     response.encoding = response.apparent_encoding
@@ -42,7 +40,6 @@ def main():
         merchant_name = merchant["name"]
         merchant_address = merchant["address"]
         merchant_tel = merchant["tel"]
-        merchant_name = merchant["name"]
         lat = merchant["latlng"]["lat"]
         lng = merchant["latlng"]["lng"]
 

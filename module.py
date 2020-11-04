@@ -22,7 +22,7 @@ def getLatLngFromYahooAPI(address):
         "https://map.yahooapis.jp/geocode/V1/geoCoder?appid={appid}&output=json&results=1&recursive=true&query={query}".format(appid=config.get("YAHOO_APPID"), query=address))
     responseJson = responseJson.json()
 
-    time.sleep(1)
+    ################################### time.sleep(1)
 
     if not "Feature" in responseJson:
         return None, None
