@@ -30,6 +30,10 @@
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://cdn.geolonia.com/community-geocoder.js"></script>
         <script>
+            if (confirm("岡山県では公式マップが提供されています。公式マップを開きますか？")) {
+                location.href = "https://platinumaps.jp/maps/gotoeat-okayama";
+            }
+
             main();
 
             function main() {

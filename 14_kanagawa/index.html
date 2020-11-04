@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GoToEat Map - Saitama</title>
+        <title>GoToEat Map - Kanagawa</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
             integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
             crossorigin="" />
@@ -30,10 +30,14 @@
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://cdn.geolonia.com/community-geocoder.js"></script>
         <script>
+            if (confirm("神奈川県では公式マップが提供されています。公式マップを開きますか？")) {
+                location.href = "https://gotoeat-kanagawa.liny.jp/map";
+            }
+
             main();
 
             function main() {
-                map = L.map("map").setView([35.856, 139.648], 13);
+                map = L.map("map").setView([35.447, 139.642], 13);
                 map.locate({
                     setView: "true"
                 });
@@ -54,8 +58,7 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
-                                            tel)
+                                        .bindPopup(title + "<hr>" + address + "<br>" + tel)
 
                                 });
                             } else {
@@ -63,7 +66,7 @@
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
+                                    .bindPopup(title + "<hr>" + address + "<br>" + tel)
 
                             }
                         }

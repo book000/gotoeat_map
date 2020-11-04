@@ -25,38 +25,34 @@ def main():
         }
     findMerchants = []
 
-    # Get Municipalities
-    municipalitys = []
-    html = requests.get("https://saitama-goto-eat.com/store.html")
-    soup = BeautifulSoup(html.content, "html.parser")
-    municipalitys_tag = soup.find(
-        "select", {"id": "round"}).findChildren("option")
-    for municipality in municipalitys_tag:
-        if municipality.text == "選択してください。":
-            continue
-        if municipality.get("value") != None:
-            municipalitys.append(municipality.get("value"))
-        else:
-            municipalitys.append(municipality.text)
-
-    print(municipalitys)
-
-    for municipality in municipalitys:
-        time.sleep(1)
+    page = 0
+    while True:
+        page += 1
+        print("----- Page {page} -----".format(page=page))
         html = requests.get(
-            "https://saitama-goto-eat.com/store/{municipality}.html".format(municipality=municipality))
+            "https://gotoeat-wakayama.com/search/?page={page}".format(page=page))
         html.encoding = html.apparent_encoding
         soup = BeautifulSoup(html.content, "html.parser")
-
-        lists = soup.findAll("div", {"class": "storebox"})
+        lists = soup.find("ul", {"class": "result_list"}
+                          ).findChildren("li", recursive=False)
+        if (len(lists) == 0):
+            break
 
         for merchant in lists:
-            spans = merchant.findChildren("span", recursive=False)
-
-            merchant_name = spans[0].text
-            merchant_postal_code = spans[2].text
-            merchant_address = spans[3].text
-            merchant_tel = spans[4].text
+            merchant_name = merchant.find(
+                "h3", {"class": "shop_name"}).text.strip()
+            merchant_type = merchant.find(
+                "li", {"class": "shop_cat"}).text.strip()
+            merchant_area = merchant.find(
+                "li", {"class": "shop_area"}).text.strip()
+            _merchant_address = merchant.find(
+                "p", {"class": "shop_address"}).text.strip()
+            merchant_postal_code = re.sub(
+                r"〒([0-9\-]+)　(.+)", r"\1", _merchant_address)
+            merchant_address = re.sub(
+                r"〒([0-9\-]+)　(.+)", r"\2", _merchant_address)
+            merchant_tel = merchant.find(
+                "p", {"class": "shop_tel"}).text.strip()
 
             print(merchant_name + " - " + merchant_address)
             findMerchants.append(merchant_name)
@@ -69,6 +65,8 @@ def main():
 
             merchants["data"].append({
                 "name": merchant_name,
+                "type": merchant_type,
+                "area": merchant_area,
                 "address": merchant_address,
                 "postal_code": merchant_postal_code,
                 "tel": merchant_tel,
@@ -79,10 +77,12 @@ def main():
 
             with open(merchantFilePath, mode="w", encoding="utf8") as f:
                 f.write(json.dumps(merchants, indent=4, ensure_ascii=False))
+        time.sleep(1)
 
     merchants = checkRemovedMerchant(merchants, findMerchants)
 
     with open(merchantFilePath, mode="w", encoding="utf8") as f:
         f.write(json.dumps(merchants, indent=4, ensure_ascii=False))
+
 
 main()

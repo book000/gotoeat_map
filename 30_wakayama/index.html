@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GoToEat Map - Saitama</title>
+        <title>GoToEat Map - Wakayama</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
             integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
             crossorigin="" />
@@ -33,7 +33,7 @@
             main();
 
             function main() {
-                map = L.map("map").setView([35.856, 139.648], 13);
+                map = L.map("map").setView([34.685, 135.832], 13);
                 map.locate({
                     setView: "true"
                 });
@@ -56,7 +56,6 @@
                                         .addTo(map)
                                         .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
                                             tel)
-
                                 });
                             } else {
                                 L.marker([one.lat, one.lng], {
@@ -64,7 +63,6 @@
                                     })
                                     .addTo(map)
                                     .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
-
                             }
                         }
                     }).catch(error => {
