@@ -52,7 +52,7 @@ def main():
 
                 if key == "住所：":
                     merchant_postal_code = re.sub(
-                        r"〒([0-9\-]+)", r"\1", value)
+                        r"〒([0-9\-]+)([\s\S]+)", r"\1", value)
                     merchant_address = re.sub(
                         r"〒([0-9\-]+)([\s\S]+)", r"\2", value).replace(
                         "\n", "").replace(" ", "").strip()
