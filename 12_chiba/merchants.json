@@ -75,7 +75,8 @@
         "創彩美食　和",
         "LAUNDRY&amp;CAFE MAKANA",
         "のうえんカフェレストラン &amp;TREE",
-        "Mike&#039;s Hotdog &amp; Steak"
+        "Mike&#039;s Hotdog &amp; Steak",
+        "PIZZERIA　BOSSO"
     ],
     "data": [
         {
@@ -609,6 +610,13 @@
             "tel": "090-7816-7681",
             "lat": "35.782144",
             "lng": "139.898828"
+        },
+        {
+            "name": "PIZZERIA　BOSSO",
+            "address": "千葉県市原市不入75-1 市原湖畔美術館内",
+            "tel": "0436-67-0967",
+            "lat": "35.349444",
+            "lng": "140.160833"
         }
     ]
 }
