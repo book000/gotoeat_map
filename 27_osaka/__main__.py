@@ -40,6 +40,9 @@ def main():
         for merchant in lists:
             merchant_name = merchant.find(
                 "p", {"class": "name"}).text.strip()
+            if merchant_name == "":
+                print("Merchant nane is empty...?")
+                continue
 
             rows = merchant.find("table").findChildren("tr")
 
