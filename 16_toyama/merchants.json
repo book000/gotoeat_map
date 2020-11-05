@@ -1573,7 +1573,6 @@
         "ほう川",
         "やきやき亭　竹生",
         "ラーメン　じゅんちゃん",
-        "レストラン・スナック　花月",
         "レストラン　芝井川",
         "レストラン喫茶　ぽてとぼーい",
         "七越ラーメン",
@@ -1718,7 +1717,25 @@
         "肉一代",
         "鮮味 丸吉（吉田鮮魚店）",
         "ヨッテカーレ城端",
-        "レストランビアンモール（かみいち総合病院）"
+        "レストランビアンモール（かみいち総合病院）",
+        "串焼と釜飯 とりでん　黒部店",
+        "吉今日",
+        "ホテルニューオータニ高岡（3階･4階）",
+        "居酒屋　度々平",
+        "居酒屋　一心",
+        "御馳走食堂　サボテン2",
+        "歌昌苑",
+        "焼肉 馬上門",
+        "あすか食堂",
+        "BARZER",
+        "Kcafe",
+        "ステーキハウス　ヌキエ",
+        "ぷち割烹　佐蔵",
+        "松一寿し",
+        "麺屋豚道場",
+        "麺屋豚道場　ぶた壱",
+        "縁",
+        "ふらわー"
     ],
     "data": [
         {
@@ -2690,16 +2707,6 @@
             "regular_holiday": null,
             "lat": "36.59591971",
             "lng": "136.91741667"
-        },
-        {
-            "name": "レストラン・スナック　花月",
-            "type": "その他",
-            "address": "富山県南砺市福光7487-1",
-            "tel": null,
-            "time": null,
-            "regular_holiday": null,
-            "lat": "36.56013705",
-            "lng": "136.87468790"
         },
         {
             "name": "レストラン　芝井川",
@@ -4150,6 +4157,186 @@
             "regular_holiday": null,
             "lat": "36.70331871",
             "lng": "137.36127702"
+        },
+        {
+            "name": "串焼と釜飯 とりでん　黒部店",
+            "type": "焼肉・焼き鳥",
+            "address": "富山県黒部市牧野762-3",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.86913592",
+            "lng": "137.44169148"
+        },
+        {
+            "name": "吉今日",
+            "type": "和食",
+            "address": "富山県黒部市三日市3018",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.87442685",
+            "lng": "137.45111807"
+        },
+        {
+            "name": "ホテルニューオータニ高岡（3階･4階）",
+            "type": "その他",
+            "address": "富山県高岡市新横町1",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.74446085",
+            "lng": "137.01647606"
+        },
+        {
+            "name": "居酒屋　度々平",
+            "type": "居酒屋",
+            "address": "富山県高岡市下関町2-18 五郎八ビルB1階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.74267494",
+            "lng": "137.01637345"
+        },
+        {
+            "name": "居酒屋　一心",
+            "type": "居酒屋",
+            "address": "富山県砺波市表町5-5 エスポワール20",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.63710414",
+            "lng": "136.95308636"
+        },
+        {
+            "name": "御馳走食堂　サボテン2",
+            "type": "アジア・エスニック",
+            "address": "富山県氷見市朝日本町8-13",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.85398128",
+            "lng": "136.98581349"
+        },
+        {
+            "name": "歌昌苑",
+            "type": "焼肉・焼き鳥",
+            "address": "富山県朝日町横尾851-1",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.95643802",
+            "lng": "137.56978570"
+        },
+        {
+            "name": "焼肉 馬上門",
+            "type": "焼肉・焼き鳥",
+            "address": "富山県小矢部市岡158",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.69614777",
+            "lng": "136.90680426"
+        },
+        {
+            "name": "あすか食堂",
+            "type": "和食",
+            "address": "富山県射水市布目217",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.75162432",
+            "lng": "137.08078968"
+        },
+        {
+            "name": "BARZER",
+            "type": "洋食",
+            "address": "富山県富山市総曲輪4-4-3 レガートスクエア",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.69095736",
+            "lng": "137.20997715"
+        },
+        {
+            "name": "Kcafe",
+            "type": "カフェ・喫茶店",
+            "address": "富山県富山市呉羽町3031-4",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.71397298",
+            "lng": "137.16338502"
+        },
+        {
+            "name": "ステーキハウス　ヌキエ",
+            "type": "洋食",
+            "address": "富山県富山市下飯野10-3",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.73875848",
+            "lng": "137.25708815"
+        },
+        {
+            "name": "ぷち割烹　佐蔵",
+            "type": "和食",
+            "address": "富山県富山市下大久保3382-3",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.61153932",
+            "lng": "137.20126655"
+        },
+        {
+            "name": "松一寿し",
+            "type": "和食",
+            "address": "富山県富山市永楽町30-16",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.70335601",
+            "lng": "137.22262550"
+        },
+        {
+            "name": "麺屋豚道場",
+            "type": "麺類",
+            "address": "富山県富山市五福6区1922－5",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.69934765",
+            "lng": "137.19098753"
+        },
+        {
+            "name": "麺屋豚道場　ぶた壱",
+            "type": "麺類",
+            "address": "富山県富山市新庄町3-5-22",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.69681053",
+            "lng": "137.25238401"
+        },
+        {
+            "name": "縁",
+            "type": "焼肉・焼き鳥",
+            "address": "富山県入善町入膳3575-7",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.93689286",
+            "lng": "137.50219053"
+        },
+        {
+            "name": "ふらわー",
+            "type": "カフェ・喫茶店",
+            "address": "富山県上市町湯上野1176 つるぎふれあい館 アルプスの湯2階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.69714734",
+            "lng": "137.37203444"
         }
     ]
 }
