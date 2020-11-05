@@ -3531,16 +3531,6 @@
             "lng": "130.35056814"
         },
         {
-            "name": "喫茶木もれ陽",
-            "type": "喫茶店",
-            "address": "佐賀県西松浦郡有田町広瀬山甲2344-7",
-            "time": null,
-            "regular_holiday": null,
-            "tel": null,
-            "lat": "33.21307180",
-            "lng": "129.87033987"
-        },
-        {
             "name": "喫茶サンブリッヂ",
             "type": "喫茶店",
             "address": "佐賀県杵島郡大町町大町5862-4",
@@ -13339,6 +13329,276 @@
             "tel": null,
             "lat": "33.25360721",
             "lng": "130.29629401"
+        },
+        {
+            "name": "味処 あけぼの",
+            "type": "食堂",
+            "address": "佐賀県唐津市湊町777-1",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.52692879",
+            "lng": "129.95144267"
+        },
+        {
+            "name": "阿城 中華料理店",
+            "type": "中華料理店",
+            "address": "佐賀県神埼市神埼町田道ケ里2275-8",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.31299812",
+            "lng": "130.37459843"
+        },
+        {
+            "name": "お食事処 いな穂",
+            "type": "食堂",
+            "address": "佐賀県杵島郡白石町大字深浦2694-2",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.14073051",
+            "lng": "130.11980569"
+        },
+        {
+            "name": "川登サービスエリアスナックコーナー",
+            "type": "食堂",
+            "address": "佐賀県武雄市東川登町永野字又3962-1長崎自動車道上り線川登サービスエリア内",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.16253662",
+            "lng": "130.00117162"
+        },
+        {
+            "name": "韓国ダイニングMOHANO",
+            "type": "各国料理店",
+            "address": "佐賀県武雄市武雄町富岡7772-5",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.19561175",
+            "lng": "130.01849176"
+        },
+        {
+            "name": "黄色いかぼちゃ",
+            "type": "洋食",
+            "address": "佐賀県多久市北多久町大字多久原7205-94",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.28579612",
+            "lng": "130.11398764"
+        },
+        {
+            "name": "しぇ・もあ藤",
+            "type": "食堂",
+            "address": "佐賀県伊万里市南波多町井手野2959ー1",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.31444601",
+            "lng": "129.92836386"
+        },
+        {
+            "name": "しちりん焼肉とらたま",
+            "type": "焼肉店",
+            "address": "佐賀県伊万里市二里町八谷搦112-5",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.27633082",
+            "lng": "129.87231422"
+        },
+        {
+            "name": "食事処 えいちゃん",
+            "type": "食堂",
+            "address": "佐賀県唐津市木綿町1975-2",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.44789358",
+            "lng": "129.97148646"
+        },
+        {
+            "name": "資さんうどん佐賀兵庫店",
+            "type": "うどん店",
+            "address": "佐賀県佐賀市兵庫町藤木1487-1",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.27859979",
+            "lng": "130.30435944"
+        },
+        {
+            "name": "寿し松",
+            "type": "すし店",
+            "address": "佐賀県多久市北多久町大字小侍595-1",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.28967104",
+            "lng": "130.09828330"
+        },
+        {
+            "name": "STOCK",
+            "type": "カレー",
+            "address": "佐賀県西松浦郡有田町大木宿乙821-1",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.22387848",
+            "lng": "129.85160541"
+        },
+        {
+            "name": "ダイニングバー バサラバサラ",
+            "type": "その他飲食店",
+            "address": "佐賀県佐賀市白山2丁目4-22F",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.25517388",
+            "lng": "130.30006586"
+        },
+        {
+            "name": "Chinese Dining Hao-Chi",
+            "type": "中華料理店",
+            "address": "佐賀県唐津市浜玉町浜崎1540-4",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.45398106",
+            "lng": "130.04237520"
+        },
+        {
+            "name": "鶴亀寿司",
+            "type": "すし店",
+            "address": "佐賀県武雄市武雄町富岡8550-7",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.19804212",
+            "lng": "130.02499123"
+        },
+        {
+            "name": "ながさき屋食堂",
+            "type": "食堂",
+            "address": "佐賀県小城市牛津町牛津天満町66-30",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.24509485",
+            "lng": "130.20956271"
+        },
+        {
+            "name": "福母食堂",
+            "type": "食堂",
+            "address": "佐賀県杵島郡大町町福母297-4",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.21250308",
+            "lng": "130.10714521"
+        },
+        {
+            "name": "古湯温泉ONCRI/おんくり 膳座敷 季味",
+            "type": "和食",
+            "address": "佐賀県佐賀市富士町古湯556",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.36868955",
+            "lng": "130.20391206"
+        },
+        {
+            "name": "古湯温泉ONCRI/おんくり ナチュラルイタリアン SEBRI",
+            "type": "レストラン",
+            "address": "佐賀県佐賀市富士町古湯556",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.36868955",
+            "lng": "130.20391206"
+        },
+        {
+            "name": "ベスパベスパ",
+            "type": "レストラン",
+            "address": "佐賀県鳥栖市本鳥栖町537-1フレスポ鳥栖1F",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.37613245",
+            "lng": "130.51726861"
+        },
+        {
+            "name": "星乃珈琲店佐賀兵庫店",
+            "type": "喫茶店",
+            "address": "佐賀県佐賀市兵庫南3‐43‐45",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.26796226",
+            "lng": "130.31547529"
+        },
+        {
+            "name": "星乃珈琲店鳥栖店",
+            "type": "喫茶店",
+            "address": "佐賀県鳥栖市宿町965-1",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.37378801",
+            "lng": "130.50612768"
+        },
+        {
+            "name": "やすらぎ食空間 うらら",
+            "type": "レストラン",
+            "address": "佐賀県鳥栖市東町1丁目1027",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.37098280",
+            "lng": "130.51572729"
+        },
+        {
+            "name": "やよい軒 鳥栖店",
+            "type": "レストラン",
+            "address": "佐賀県鳥栖市元町1360-2",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.37580178",
+            "lng": "130.50656923"
+        },
+        {
+            "name": "洋麺屋五右衛門佐賀兵庫店",
+            "type": "スパゲティ",
+            "address": "佐賀県佐賀市兵庫南3‐43‐45",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.26796226",
+            "lng": "130.31547529"
+        },
+        {
+            "name": "漁師の館",
+            "type": "食堂",
+            "address": "佐賀県藤津郡太良町伊福甲3488-2",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.04698842",
+            "lng": "130.16935896"
+        },
+        {
+            "name": "レストラン サンモリナガ",
+            "type": "レストラン",
+            "address": "佐賀県多久市北多久町小侍642-1",
+            "time": null,
+            "regular_holiday": null,
+            "tel": null,
+            "lat": "33.28925158",
+            "lng": "130.10109975"
         }
     ],
     "names": [
@@ -13695,7 +13955,6 @@
         "喫茶 こせん",
         "喫茶 GIG",
         "喫茶 マドンナ",
-        "喫茶木もれ陽",
         "喫茶サンブリッヂ",
         "喫茶 チャコ",
         "キッチン グランマ",
@@ -14675,6 +14934,33 @@
         "和風レストラン 川した",
         "和料理 みね家",
         "ワンカルビ鳥栖店",
-        "椀々"
+        "椀々",
+        "味処 あけぼの",
+        "阿城 中華料理店",
+        "お食事処 いな穂",
+        "川登サービスエリアスナックコーナー",
+        "韓国ダイニングMOHANO",
+        "黄色いかぼちゃ",
+        "しぇ・もあ藤",
+        "しちりん焼肉とらたま",
+        "食事処 えいちゃん",
+        "資さんうどん佐賀兵庫店",
+        "寿し松",
+        "STOCK",
+        "ダイニングバー バサラバサラ",
+        "Chinese Dining Hao-Chi",
+        "鶴亀寿司",
+        "ながさき屋食堂",
+        "福母食堂",
+        "古湯温泉ONCRI/おんくり 膳座敷 季味",
+        "古湯温泉ONCRI/おんくり ナチュラルイタリアン SEBRI",
+        "ベスパベスパ",
+        "星乃珈琲店佐賀兵庫店",
+        "星乃珈琲店鳥栖店",
+        "やすらぎ食空間 うらら",
+        "やよい軒 鳥栖店",
+        "洋麺屋五右衛門佐賀兵庫店",
+        "漁師の館",
+        "レストラン サンモリナガ"
     ]
 }

@@ -76,7 +76,8 @@
         "LAUNDRY&amp;CAFE MAKANA",
         "のうえんカフェレストラン &amp;TREE",
         "Mike&#039;s Hotdog &amp; Steak",
-        "PIZZERIA　BOSSO"
+        "PIZZERIA　BOSSO",
+        "方宝たつみ"
     ],
     "data": [
         {
@@ -617,6 +618,13 @@
             "tel": "0436-67-0967",
             "lat": "35.349444",
             "lng": "140.160833"
+        },
+        {
+            "name": "方宝たつみ",
+            "address": "千葉県銚子市宮原町473",
+            "tel": "0479-33-3198",
+            "lat": "35.803395",
+            "lng": "140.712263"
         }
     ]
 }
