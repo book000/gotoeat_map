@@ -45,8 +45,11 @@
                     .then(response => {
                         for (one of response.data.data) {
                             const title = one.name;
+                            const type = one.type.join("・");
                             const address = one.address;
                             const postal_code = one.postal_code;
+                            const time = one.time;
+                            const regular_holiday = one.regular_holiday;
                             const tel = one.tel;
                             if (one.lat == undefined || one.lat == null) {
                                 getLatLng(address, (latlng) => {
@@ -54,15 +57,18 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
-                                            tel)
+                                        .bindPopup(
+                                            `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}<br>営業時間: ${time}<br>定休日: ${regular_holiday}`
+                                        )
                                 });
                             } else {
                                 L.marker([one.lat, one.lng], {
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
+                                    .bindPopup(
+                                        `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}<br>営業時間: ${time}<br>定休日: ${regular_holiday}`
+                                    )
                             }
                         }
                     }).catch(error => {

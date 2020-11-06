@@ -54,8 +54,9 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
-                                            tel)
+                                        .bindPopup(
+                                            `<b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`
+                                        )
 
                                 });
                             } else {
@@ -63,7 +64,9 @@
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
+                                    .bindPopup(
+                                        `<b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`
+                                    )
 
                             }
                         }

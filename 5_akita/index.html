@@ -53,7 +53,7 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>" + address + "<br>" + tel)
+                                        .bindPopup(`<b>${title}</b><hr>${address}<br>${tel}`)
 
                                 });
                             } else {
@@ -61,7 +61,7 @@
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>" + address + "<br>" + tel)
+                                    .bindPopup(`<b>${title}</b><hr>${address}<br>${tel}`)
 
                             }
                         }

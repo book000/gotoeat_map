@@ -154,6 +154,7 @@ def get_shizuoka(merchants, findMerchants):
                 "source": "gotoeat-shizuoka.com",
                 "name": merchant_name,
                 "type": merchant_type,
+                "postal_code": merchant_postal_code,
                 "address": merchant_address,
                 "tel": merchant_tel,
                 "time": merchant_time,

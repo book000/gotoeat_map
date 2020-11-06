@@ -47,26 +47,36 @@
 
                 axios.get("merchants.json")
                     .then(response => {
+                        let categories = {};
+                        for (category in response.data.categories) {
+                            categories[category] = response.data.categories[category];
+                        }
+                        console.log(categories);
                         for (one of response.data.data) {
                             const title = one.name;
+                            const type_keys = one.type;
+                            const type = type_keys.map(key => categories[key]).join("・")
                             const address = one.address;
-                            const postal_code = one.postal_code;
                             const tel = one.tel;
+                            const regular_holiday = one.regular_holiday
                             if (one.lat == undefined || one.lat == null) {
                                 getLatLng(address, (latlng) => {
                                     L.marker([latlng.lat, latlng.lng], {
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
-                                            tel)
+                                        .bindPopup(
+                                            `【${type}】<br><b>${title}</b><hr>${address}<br>${tel}<br>定休日: ${regular_holiday}`
+                                        )
                                 });
                             } else {
                                 L.marker([one.lat, one.lng], {
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
+                                    .bindPopup(
+                                        `【${type}】<br><b>${title}</b><hr>${address}<br>${tel}<br>定休日: ${regular_holiday}`
+                                    )
                             }
                         }
                     }).catch(error => {

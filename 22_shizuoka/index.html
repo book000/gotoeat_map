@@ -29,6 +29,7 @@
             crossorigin=""></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://cdn.geolonia.com/community-geocoder.js"></script>
+        <script src="../leaflet.sprite.js"></script>
         <script>
             main();
 
@@ -45,25 +46,35 @@
                     .then(response => {
                         for (one of response.data.data) {
                             const title = one.name;
+                            const type = one.type;
+                            if (Array.isArray(type)) {
+                                type = type.join("・")
+                            }
                             const address = one.address;
                             const postal_code = one.postal_code;
                             const tel = one.tel;
+                            const source = one.source;
+                            let options = {
+                                title: title
+                            }
+                            if (source == "gotoeat-shizuoka.com") {
+                                options[icon] = L.spriteIcon("red");
+                            }
                             if (one.lat == undefined || one.lat == null) {
                                 getLatLng(address, (latlng) => {
-                                    L.marker([latlng.lat, latlng.lng], {
-                                            title: title
-                                        })
+                                    L.marker([latlng.lat, latlng.lng], options)
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
-                                            tel)
+                                        .bindPopup(
+                                            `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}<br>(Source: ${source})`
+                                        )
 
                                 });
                             } else {
-                                L.marker([one.lat, one.lng], {
-                                        title: title
-                                    })
+                                L.marker([one.lat, one.lng], options)
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
+                                    .bindPopup(
+                                        `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}<br>(Source: ${source})`
+                                    )
 
                             }
                         }

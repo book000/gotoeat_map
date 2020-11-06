@@ -50,7 +50,6 @@
                         for (one of response.data.data) {
                             const title = one.name;
                             const address = one.address;
-                            const postal_code = one.postal_code;
                             const tel = one.tel;
                             if (one.lat == undefined || one.lat == null) {
                                 getLatLng(address, (latlng) => {
@@ -58,7 +57,9 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>" + address + "<br>" + tel)
+                                        .bindPopup(
+                                            `<b>${title}</b><hr>${address}<br>${tel}`
+                                        )
 
                                 });
                             } else {
@@ -66,7 +67,9 @@
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>" + address + "<br>" + tel)
+                                    .bindPopup(
+                                        `<b>${title}</b><hr>${address}<br>${tel}`
+                                    )
 
                             }
                         }

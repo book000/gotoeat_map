@@ -41,11 +41,31 @@
                     attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
                 }).addTo(map);
 
+                const categories = {
+                    1: "和食・寿司",
+                    2: "洋食",
+                    3: "中華料理",
+                    4: "フレンチ・イタリアン",
+                    5: "ラーメン・餃子",
+                    6: "焼肉・ホルモン・韓国料理",
+                    7: "すき焼き・しゃぶしゃぶ",
+                    8: "アジア・エスニック・各国料理",
+                    9: "カフェ・スイーツ",
+                    10: "ファミリーレストラン・食堂",
+                    11: "居酒屋",
+                    12: "バー・ダイニングバー",
+                    13: "ファーストフード",
+                    14: "うどん・そば・丼",
+                    15: "その他"
+                }
+
                 axios.get("merchants.json")
                     .then(response => {
                         for (one of response.data.data) {
                             const title = one.name;
+                            const type = categories[parseInt(one.type)];
                             const address = one.address;
+                            const postal_code = one.postal_code;
                             const tel = one.tel;
                             if (one.lat == undefined || one.lat == null) {
                                 getLatLng(address, (latlng) => {
@@ -53,7 +73,9 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>" + address + "<br>" + tel)
+                                        .bindPopup(
+                                            `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`
+                                        )
 
                                 });
                             } else {
@@ -61,7 +83,9 @@
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>" + address + "<br>" + tel)
+                                    .bindPopup(
+                                        `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`
+                                    )
 
                             }
                         }

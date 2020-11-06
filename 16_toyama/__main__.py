@@ -44,19 +44,19 @@ def main():
                 "div", {"class": "item_header"}).text.strip()
             merchant_address = merchant.find(
                 "div", {"class": "place"}).find("div", {"class": "rig"}).text.strip()
-            if merchant.find("p", {"class": "phone"}) != None:
+            if merchant.find("div", {"class": "phone"}) != None:
                 merchant_tel = merchant.find(
                     "div", {"class": "phone"}).find("div", {"class": "rig"}).text.strip()
             else:
                 merchant_tel = None
 
-            if merchant.find("p", {"class": "work"}) != None:
+            if merchant.find("div", {"class": "work"}) != None:
                 merchant_time = merchant.find(
                     "div", {"class": "work"}).find("div", {"class": "rig"}).text.strip()
             else:
                 merchant_time = None
 
-            if merchant.find("p", {"class": "work"}) != None:
+            if merchant.find("div", {"class": "off_day"}) != None:
                 merchant_regular_holiday = merchant.find(
                     "div", {"class": "off_day"}).find("div", {"class": "rig"}).text.strip()
             else:

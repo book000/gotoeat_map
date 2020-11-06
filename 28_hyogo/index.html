@@ -54,15 +54,18 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
-                                            tel)
+                                        .bindPopup(
+                                            `<b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`
+                                        )
                                 });
                             } else {
                                 L.marker([one.lat, one.lng], {
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
+                                    .bindPopup(
+                                        `<b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`
+                                    )
                             }
                         }
                     }).catch(error => {

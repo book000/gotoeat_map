@@ -45,6 +45,7 @@
                     .then(response => {
                         for (one of response.data.data) {
                             const title = one.name;
+                            const type = one.type;
                             const address = one.address;
                             if (one.lat == undefined || one.lat == null) {
                                 getLatLng(address, (latlng) => {
@@ -52,7 +53,7 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>" + address)
+                                        .bindPopup(`【${type}】<br><b>${title}</b><hr>${address}`)
 
                                 });
                             } else {
@@ -60,7 +61,7 @@
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>" + address)
+                                        .bindPopup(`【${type}】<br><b>${title}</b><hr>${address}`)
 
                             }
                         }

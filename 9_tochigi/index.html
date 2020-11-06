@@ -45,6 +45,7 @@
                     .then(response => {
                         for (one of response.data.data) {
                             const title = one.name;
+                            const type = one.type;
                             const address = one.address;
                             const postal_code = one.postal_code;
                             const tel = one.tel;
@@ -54,8 +55,9 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
-                                            tel)
+                                        .bindPopup(
+                                            `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`
+                                            )
 
                                 });
                             } else {
@@ -63,7 +65,8 @@
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
+                                    .bindPopup(
+                                        `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`)
 
                             }
                         }

@@ -40,8 +40,8 @@ def main():
             merchant_name = merchant.find("div", {"class": "ttl"}).text.strip()
             merchant_type = merchant.find("div", {"class": "genre"}).text.strip()
 
-            dts = merchant.find("dl").findChildren("dt", recursive=False)
-            dds = merchant.find("dl").findChildren("dd", recursive=False)
+            dts = merchant.findChildren("dt")
+            dds = merchant.findChildren("dd")
 
             merchant_regular_holiday = None
             merchant_time = None

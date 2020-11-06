@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GoToEat Map - Gumma</title>
+        <title>GoToEat Map - Gunma</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
             integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
             crossorigin="" />
@@ -45,6 +45,7 @@
                     .then(response => {
                         for (one of response.data.data) {
                             const title = one.name;
+                            const type = one.type;
                             const address = one.address;
                             const postal_code = one.postal_code;
                             const tel = one.tel;
@@ -54,8 +55,9 @@
                                             title: title
                                         })
                                         .addTo(map)
-                                        .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" +
-                                            tel)
+                                        .bindPopup(
+                                            `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`
+                                        )
 
                                 });
                             } else {
@@ -63,7 +65,9 @@
                                         title: title
                                     })
                                     .addTo(map)
-                                    .bindPopup(title + "<hr>〒" + postal_code + " " + address + "<br>" + tel)
+                                    .bindPopup(
+                                        `【${type}】<br><b>${title}</b><hr>〒${postal_code} ${address}<br>${tel}`
+                                    )
 
                             }
                         }
