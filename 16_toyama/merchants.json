@@ -1735,7 +1735,20 @@
         "麺屋豚道場",
         "麺屋豚道場　ぶた壱",
         "縁",
-        "ふらわー"
+        "ふらわー",
+        "魚民　黒部店",
+        "山内農場　魚津スカイホテル店",
+        "魚民　魚津スカイホテル店",
+        "目利きの銀次　高岡北口駅前店",
+        "魚民　新高岡南口駅前店",
+        "魚民　氷見店",
+        "坂田鮮魚店",
+        "魚民　小杉南口駅前店",
+        "天下一品　富山掛尾店",
+        "山内農場　富山インター店",
+        "白木屋　富山南口駅前店",
+        "笑笑　富山南口駅前店",
+        "魚民　富山南口駅前店"
     ],
     "data": [
         {
@@ -4337,6 +4350,136 @@
             "regular_holiday": null,
             "lat": "36.69714734",
             "lng": "137.37203444"
+        },
+        {
+            "name": "魚民　黒部店",
+            "type": "居酒屋",
+            "address": "富山県黒部市前沢1519 モンテローザ黒部ビル1階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.86603354",
+            "lng": "137.45008238"
+        },
+        {
+            "name": "山内農場　魚津スカイホテル店",
+            "type": "居酒屋",
+            "address": "富山県魚津市駅前新町3-1 スカイホテル魚津アネックス1階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.82217032",
+            "lng": "137.40542611"
+        },
+        {
+            "name": "魚民　魚津スカイホテル店",
+            "type": "居酒屋",
+            "address": "富山県魚津市駅前新町3-1 スカイホテル魚津アネックス1階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.82217032",
+            "lng": "137.40542611"
+        },
+        {
+            "name": "目利きの銀次　高岡北口駅前店",
+            "type": "居酒屋",
+            "address": "富山県高岡市下関町1-30 アナバーナビル1階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.74309434",
+            "lng": "137.01696502"
+        },
+        {
+            "name": "魚民　新高岡南口駅前店",
+            "type": "居酒屋",
+            "address": "富山県高岡市下黒田3016",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.72626280",
+            "lng": "137.01134207"
+        },
+        {
+            "name": "魚民　氷見店",
+            "type": "居酒屋",
+            "address": "富山県氷見市加納436-1 プラファB棟1階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.86349916",
+            "lng": "136.97523663"
+        },
+        {
+            "name": "坂田鮮魚店",
+            "type": "和食",
+            "address": "富山県小矢部市蓑輪2075-1",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.62487072",
+            "lng": "136.89069344"
+        },
+        {
+            "name": "魚民　小杉南口駅前店",
+            "type": "居酒屋",
+            "address": "富山県射水市三ケ2602 アル･プラザ小杉 別棟1階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.72047606",
+            "lng": "137.09289765"
+        },
+        {
+            "name": "天下一品　富山掛尾店",
+            "type": "麺類",
+            "address": "富山県富山市掛尾町470",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.66334475",
+            "lng": "137.21022815"
+        },
+        {
+            "name": "山内農場　富山インター店",
+            "type": "居酒屋",
+            "address": "富山県富山市掛尾町470",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.66334475",
+            "lng": "137.21022815"
+        },
+        {
+            "name": "白木屋　富山南口駅前店",
+            "type": "居酒屋",
+            "address": "富山県富山市新富町1-2-3 CiCビル地下1階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.69968123",
+            "lng": "137.21229329"
+        },
+        {
+            "name": "笑笑　富山南口駅前店",
+            "type": "居酒屋",
+            "address": "富山県富山市新富町1-2-3 CiCビル地下1階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.69968123",
+            "lng": "137.21229329"
+        },
+        {
+            "name": "魚民　富山南口駅前店",
+            "type": "居酒屋",
+            "address": "富山県富山市新富町1-2-3 CiCビル6階",
+            "tel": null,
+            "time": null,
+            "regular_holiday": null,
+            "lat": "36.69968123",
+            "lng": "137.21229329"
         }
     ]
 }
