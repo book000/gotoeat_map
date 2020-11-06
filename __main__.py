@@ -2,6 +2,21 @@ import importlib
 import os
 import datetime
 import math
+import traceback
+from github import Github
+
+
+def createIssue(title, content):
+    g = Github(os.environ.get("TOKEN"))
+    repo = g.get_repo(os.environ.get("GITHUB_REPOSITORY"))
+
+    open_issues = repo.get_issues(state="open")
+    for issue in open_issues:
+        if issue.title == title:
+            return
+
+    repo.create_issue(title=title, body=content)
+
 
 prefectures = [
     [
@@ -77,5 +92,20 @@ for prefecture in prefectures[math.floor(dt.hour / 3)]:
         continue
     if not os.path.isdir(prefecture_dir):
         print("Not a directory")
-    build = importlib.import_module("gotoeat_map." + prefecture + ".__main__")
-    build.main()
+    try:
+        build = importlib.import_module(
+            "gotoeat_map." + prefecture + ".__main__")
+        build.main()
+    except Exception as e:
+        trace = traceback.format_exc()
+        print(trace)
+        traceLast = [x for x in trace.split("\n") if x][-1]
+        createIssue(
+            "[" + prefecture + "] " + traceLast,
+            "GitHub Run ID: `{github_run_id}`\nGitHub Run Number: `{github_run_number}`\nGitHub Action ID: `{github_action_id}`\nTrace: \n```\n{trace}\n```".format(
+                github_run_id=os.environ.get("GITHUB_RUN_ID"),
+                github_run_number=os.environ.get("GITHUB_RUN_NUMBER"),
+                github_action_id=os.environ.get("GITHUB_ACTION"),
+                trace=trace.strip()
+            )
+        )
