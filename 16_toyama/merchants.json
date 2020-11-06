@@ -5841,16 +5841,6 @@
             "lng": "136.98123654"
         },
         {
-            "name": "Bed&Kitchen; SORAIRO",
-            "type": "カフェ・喫茶店",
-            "address": "富山県氷見市小久米485",
-            "tel": "080-5851-1200",
-            "time": "11:00~15:00 / 18:00~21:00\r\n（※夜は完全予約にて営業）",
-            "regular_holiday": "木曜日",
-            "lat": "36.84566645",
-            "lng": "136.90400639"
-        },
-        {
             "name": "SAYS FARM",
             "type": "その他",
             "address": "富山県氷見市余川字北山238",
@@ -8601,16 +8591,6 @@
             "lng": "137.20744524"
         },
         {
-            "name": "cafe&bar; AREA1",
-            "type": "カフェ・喫茶店",
-            "address": "富山県富山市中央通り1-2-14",
-            "tel": "076-425-6123",
-            "time": "11:30～15:00/18:00～翌0:00",
-            "regular_holiday": "月曜日、火曜日の昼",
-            "lat": "36.68961049",
-            "lng": "137.21652100"
-        },
-        {
             "name": "cafeあっち",
             "type": "カフェ・喫茶店",
             "address": "富山県富山市二俣368-1",
@@ -8649,26 +8629,6 @@
             "regular_holiday": "火曜日",
             "lat": "36.68321399",
             "lng": "137.20217010"
-        },
-        {
-            "name": "D&DEPARTMENT; TOYAMA DINING",
-            "type": "カフェ・喫茶店",
-            "address": "富山県富山市新総曲輪4-18　富山県民会館1階",
-            "tel": "076-471-7791",
-            "time": "月～金：11:00～17:00\r\n土･日･祝：11:00～19:00",
-            "regular_holiday": "施設休館日に準ずる",
-            "lat": "36.69539011",
-            "lng": "137.21238230"
-        },
-        {
-            "name": "Dining&Bar; Bel Canto",
-            "type": "その他",
-            "address": "富山県富山市内幸町2-14 内幸ビルA館1階",
-            "tel": "076-442-6653",
-            "time": "月：17:00～翌1:00\r\n火～土･祝日･祝前日：11:00～14:00/17:00～翌1:00",
-            "regular_holiday": "日曜日、第3月曜日",
-            "lat": "36.69762867",
-            "lng": "137.21078793"
         },
         {
             "name": "Dog Amusement Nine",
@@ -8789,16 +8749,6 @@
             "regular_holiday": "火曜日",
             "lat": "36.74109329",
             "lng": "137.32235150"
-        },
-        {
-            "name": "kitchen&cafe;  GAREGARE",
-            "type": "カフェ・喫茶店",
-            "address": "富山県富山市岩瀬天神町3",
-            "tel": "076-460-4008",
-            "time": "11:00∼17:00",
-            "regular_holiday": "第1･2日・月曜日",
-            "lat": "36.76162529",
-            "lng": "137.23289305"
         },
         {
             "name": "Le glouton",
@@ -9049,16 +8999,6 @@
             "regular_holiday": "火･水曜日\r\n（※定休日以外の臨時休業あり）",
             "lat": "36.56052316",
             "lng": "137.20388436"
-        },
-        {
-            "name": "vege&bar;　シンバル",
-            "type": "その他",
-            "address": "富山県富山市一番町4-26",
-            "tel": "076-493-5050",
-            "time": "18:00∼23:00（※現在時短営業中）",
-            "regular_holiday": "月曜日（※臨時休業あり）",
-            "lat": "36.68871885",
-            "lng": "137.21146599"
         },
         {
             "name": "Viva　富山駅前店",
@@ -17569,6 +17509,76 @@
             "regular_holiday": "月曜日",
             "lat": "36.70196331",
             "lng": "137.36164092"
+        },
+        {
+            "name": "ブルーコムコーヒー",
+            "type": "カフェ・喫茶店",
+            "address": "富山県高岡市京田422",
+            "tel": "0766-28-0585",
+            "time": "11:00~17:00",
+            "regular_holiday": "火曜日",
+            "lat": "36.72959584",
+            "lng": "137.01506915"
+        },
+        {
+            "name": "Bed&Kitchen SORAIRO",
+            "type": "カフェ・喫茶店",
+            "address": "富山県氷見市小久米485",
+            "tel": "080-5851-1200",
+            "time": "11:00~15:00 / 18:00~21:00\r\n（※夜は完全予約にて営業）",
+            "regular_holiday": "木曜日",
+            "lat": "36.84566645",
+            "lng": "136.90400639"
+        },
+        {
+            "name": "cafe&bar AREA1",
+            "type": "カフェ・喫茶店",
+            "address": "富山県富山市中央通り1-2-14",
+            "tel": "076-425-6123",
+            "time": "11:30～15:00/18:00～翌0:00",
+            "regular_holiday": "月曜日、火曜日の昼",
+            "lat": "36.68961049",
+            "lng": "137.21652100"
+        },
+        {
+            "name": "D&DEPARTMENT TOYAMA DINING",
+            "type": "カフェ・喫茶店",
+            "address": "富山県富山市新総曲輪4-18　富山県民会館1階",
+            "tel": "076-471-7791",
+            "time": "月～金：11:00～17:00\r\n土･日･祝：11:00～19:00",
+            "regular_holiday": "施設休館日に準ずる",
+            "lat": "36.69539011",
+            "lng": "137.21238230"
+        },
+        {
+            "name": "Dining&Bar Bel Canto",
+            "type": "その他",
+            "address": "富山県富山市内幸町2-14 内幸ビルA館1階",
+            "tel": "076-442-6653",
+            "time": "月：17:00～翌1:00\r\n火～土･祝日･祝前日：11:00～14:00/17:00～翌1:00",
+            "regular_holiday": "日曜日、第3月曜日",
+            "lat": "36.69762867",
+            "lng": "137.21078793"
+        },
+        {
+            "name": "kitchen&cafe  GAREGARE",
+            "type": "カフェ・喫茶店",
+            "address": "富山県富山市岩瀬天神町3",
+            "tel": "076-460-4008",
+            "time": "11:00∼17:00",
+            "regular_holiday": "第1･2日・月曜日",
+            "lat": "36.76162529",
+            "lng": "137.23289305"
+        },
+        {
+            "name": "vege&bar　シンバル",
+            "type": "その他",
+            "address": "富山県富山市一番町4-26",
+            "tel": "076-493-5050",
+            "time": "18:00∼23:00（※現在時短営業中）",
+            "regular_holiday": "月曜日（※臨時休業あり）",
+            "lat": "36.68871885",
+            "lng": "137.21146599"
         }
     ],
     "names": [
@@ -18156,7 +18166,6 @@
         "蕎麦かふぇ　美楽",
         "道とん堀　滑川店",
         "８番らーめん　氷見朝日丘店",
-        "Bed&Kitchen; SORAIRO",
         "SAYS FARM",
         "イタリアンキッチン　オリーブ",
         "イタリア料理ボーノ・ペッシェ",
@@ -18432,13 +18441,10 @@
         "cafe BLUE LEAVES",
         "Cafe Socio",
         "Cafe　でいじーべる",
-        "cafe&bar; AREA1",
         "cafeあっち",
         "Charo",
         "CHILL OUT&ソフトクリーム畑　富山店",
         "CONVIVIO",
-        "D&DEPARTMENT; TOYAMA DINING",
-        "Dining&Bar; Bel Canto",
         "Dog Amusement Nine",
         "ENZO",
         "FLAT",
@@ -18451,7 +18457,6 @@
         "KAIMARE",
         "Kcafe",
         "Kitchen チカライト",
-        "kitchen&cafe;  GAREGARE",
         "Le glouton",
         "miyashita",
         "modern style China 満寿園",
@@ -18477,7 +18482,6 @@
         "TIERRA Cafe ティエルカフェ",
         "TRATTORIA サッチ",
         "Tresonnier（リバーリトリート雅樂倶）",
-        "vege&bar;　シンバル",
         "Viva　富山駅前店",
         "Y.s",
         "YAKITORIA ちいろ",
@@ -19328,6 +19332,13 @@
         "波平",
         "焼肉レストラン　からしし",
         "茂平爺",
-        "都"
+        "都",
+        "ブルーコムコーヒー",
+        "Bed&Kitchen SORAIRO",
+        "cafe&bar AREA1",
+        "D&DEPARTMENT TOYAMA DINING",
+        "Dining&Bar Bel Canto",
+        "kitchen&cafe  GAREGARE",
+        "vege&bar　シンバル"
     ]
 }
