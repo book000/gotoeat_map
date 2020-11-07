@@ -50,6 +50,9 @@ def main():
             merchant_time = None
             merchant_tel = None
             for key in range(len(dts)):
+                if len(dds) <= key:
+                    break
+
                 dt = dts[key].text.strip()
                 dd = dds[key].text.strip()
 
