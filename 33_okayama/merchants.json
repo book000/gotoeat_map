@@ -35112,6 +35112,2910 @@
             "regular_holiday": null,
             "lat": 34.6659877416214,
             "lng": 133.92939761281
+        },
+        {
+            "name": "とりでい西口店",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区駅元町29-14",
+            "tel": "086-214-2223",
+            "regular_holiday": null,
+            "lat": 34.6679458,
+            "lng": 133.9165393
+        },
+        {
+            "name": "えびめしや笹沖店",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市吉岡403",
+            "tel": "086-423-5670",
+            "regular_holiday": null,
+            "lat": 34.5699946,
+            "lng": 133.7682805
+        },
+        {
+            "name": "焼肉レストラン　巨城里",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市南区妹尾2393-4",
+            "tel": "086-282-1902",
+            "regular_holiday": null,
+            "lat": 34.6172986,
+            "lng": 133.8659355
+        },
+        {
+            "name": "築地銀だこ　イオンモール岡山店",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区下石井1-2-1",
+            "tel": "086-803-6082",
+            "regular_holiday": null,
+            "lat": 34.6622566,
+            "lng": 133.917743
+        },
+        {
+            "name": "LUCE  wine&tapas",
+            "type": [
+                "diningbar"
+            ],
+            "address": "岡山県倉敷市南町7-26",
+            "tel": "086-436-6519",
+            "regular_holiday": null,
+            "lat": 34.5933421,
+            "lng": 133.7643978
+        },
+        {
+            "name": "吾妻寿司　さんすて岡山店",
+            "type": [
+                "sushi"
+            ],
+            "address": "岡山県岡山市北区駅元町1-1　さんすて岡山南館2階",
+            "tel": "086-227-7337",
+            "regular_holiday": null,
+            "lat": 34.666086,
+            "lng": 133.9188068
+        },
+        {
+            "name": "池田本店よねひろ亭",
+            "type": [
+                "ryotei"
+            ],
+            "address": "岡山県高梁市川上町地頭1309-3",
+            "tel": "0866-48-3012",
+            "regular_holiday": null,
+            "lat": 34.7389135,
+            "lng": 133.4849904
+        },
+        {
+            "name": "幸楽",
+            "type": [
+                "okonomiyaki"
+            ],
+            "address": "岡山県真庭市江川843-1",
+            "tel": "0867-44-4645",
+            "regular_holiday": null,
+            "lat": 35.0770648,
+            "lng": 133.6878343
+        },
+        {
+            "name": "バーコントワール",
+            "type": [
+                "diningbar"
+            ],
+            "address": "岡山県岡山市北区磨屋町1-20",
+            "tel": "086-227-3120",
+            "regular_holiday": null,
+            "lat": 34.6651251,
+            "lng": 133.9243418
+        },
+        {
+            "name": "くわん屋evolution",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県岡山市中区雄町12-2-2",
+            "tel": "086-278-6868",
+            "regular_holiday": null,
+            "lat": 34.6844477,
+            "lng": 133.9685653
+        },
+        {
+            "name": "民宿あけぼの",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県瀬戸内市牛窓町牛窓2378-2",
+            "tel": "0869-34-5113",
+            "regular_holiday": null,
+            "lat": 34.617361,
+            "lng": 134.1727998
+        },
+        {
+            "name": "焼肉和平　倉敷笹沖店",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県倉敷市笹沖1365 十合第1ビル",
+            "tel": "086-454-5321",
+            "regular_holiday": null,
+            "lat": 34.582072,
+            "lng": 133.7705982
+        },
+        {
+            "name": "旬魚肉菜いなか家本店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区田町2-10-16",
+            "tel": "086-233-4917",
+            "regular_holiday": null,
+            "lat": 34.658686,
+            "lng": 133.9259372
+        },
+        {
+            "name": "フジヤマドラゴン岡山本店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市南区古新田1199-3",
+            "tel": "086-281-2800",
+            "regular_holiday": null,
+            "lat": 34.6245947,
+            "lng": 133.8734555
+        },
+        {
+            "name": "29〇TOKYO岡山駅前店（ニクマルトウキョウ）",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区駅前町1-1-21　成通ハリービル8F",
+            "tel": "086-232-5323",
+            "regular_holiday": null,
+            "lat": 34.665846,
+            "lng": 133.920328
+        },
+        {
+            "name": "下西川町酒場はね黒",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区柳町1-14-12　西川100ビル1F",
+            "tel": "086-223-2233",
+            "regular_holiday": null,
+            "lat": 34.6586325,
+            "lng": 133.9226443
+        },
+        {
+            "name": "Bacaro",
+            "type": [
+                "diningbar"
+            ],
+            "address": "岡山県岡山市北区幸町4-20 アーバンテラス1F",
+            "tel": "086-233-4139",
+            "regular_holiday": null,
+            "lat": 34.6617371,
+            "lng": 133.9220633
+        },
+        {
+            "name": "豊前うどん　いしば志",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県岡山市北区春日町3ー11",
+            "tel": "086-201-3144",
+            "regular_holiday": null,
+            "lat": 34.653922,
+            "lng": 133.9212233
+        },
+        {
+            "name": "岡田鮮魚店",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県真庭市久世2411",
+            "tel": "0867-42-0434",
+            "regular_holiday": null,
+            "lat": 35.079541,
+            "lng": 133.7453243
+        },
+        {
+            "name": "まえじま牡蠣小屋",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県瀬戸内市牛窓町牛窓5662-4",
+            "tel": "0869-34-4356",
+            "regular_holiday": null,
+            "lat": 34.6070394,
+            "lng": 134.1655322
+        },
+        {
+            "name": "ＪＡ晴れの国岡山　あしん広場　焼肉・千屋牛",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県新見市正田397-2",
+            "tel": "0867-72-6605",
+            "regular_holiday": null,
+            "lat": 34.9632626,
+            "lng": 133.4707718
+        },
+        {
+            "name": "当新田食堂",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市南区芳泉2-17-26",
+            "tel": "086-241-3558",
+            "regular_holiday": null,
+            "lat": 34.6211494,
+            "lng": 133.9084049
+        },
+        {
+            "name": "ワインと洋食のお店BuenaVista",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区奉還町2-3-10",
+            "tel": "086-289-6401",
+            "regular_holiday": null,
+            "lat": 34.668634,
+            "lng": 133.9160177
+        },
+        {
+            "name": "DotCafe",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県美作市湯郷799",
+            "tel": "0868-72-1559",
+            "regular_holiday": null,
+            "lat": 34.992545,
+            "lng": 134.1340952
+        },
+        {
+            "name": "せんべや",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市川西町15-13",
+            "tel": "086-426-9530",
+            "regular_holiday": null,
+            "lat": 34.5975962,
+            "lng": 133.7635153
+        },
+        {
+            "name": "ピッツェリアチッチョ",
+            "type": [
+                "itarian"
+            ],
+            "address": "岡山県総社市中央3-6-105",
+            "tel": "0866-90-2040",
+            "regular_holiday": null,
+            "lat": 34.6726537,
+            "lng": 133.7502455
+        },
+        {
+            "name": "らーめんふぁみりー久世店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県真庭市惣70-1",
+            "tel": "0867-42-5811",
+            "regular_holiday": null,
+            "lat": 35.0753596,
+            "lng": 133.7451241
+        },
+        {
+            "name": "らーめんふぁみりー岡山店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県岡山市北区津島京町1-2-19",
+            "tel": "086-256-1511",
+            "regular_holiday": null,
+            "lat": 34.6802444,
+            "lng": 133.8996636
+        },
+        {
+            "name": "倉敷食堂バル",
+            "type": [
+                "itarian"
+            ],
+            "address": "岡山県倉敷市阿知2-5-30",
+            "tel": "080-3894-5339",
+            "regular_holiday": null,
+            "lat": 34.6013273,
+            "lng": 133.7683238
+        },
+        {
+            "name": "レストランおみつ",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市水島東栄町3-25",
+            "tel": "086-444-0011",
+            "regular_holiday": null,
+            "lat": 34.5364103,
+            "lng": 133.7429956
+        },
+        {
+            "name": "鉄板焼き工房　煉",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市新倉敷駅前4-18-3",
+            "tel": "086-454-8460",
+            "regular_holiday": null,
+            "lat": 34.5621533,
+            "lng": 133.6801744
+        },
+        {
+            "name": "吉備土手下麦酒　普段呑み場",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区北方4-2-18",
+            "tel": "086-235-5712",
+            "regular_holiday": null,
+            "lat": 34.6851424,
+            "lng": 133.9348797
+        },
+        {
+            "name": "オーベルジュ",
+            "type": [
+                "french"
+            ],
+            "address": "岡山県岡山市南区豊成3-20-32",
+            "tel": "086-262-2343",
+            "regular_holiday": null,
+            "lat": 34.624799,
+            "lng": 133.9249261
+        },
+        {
+            "name": "ほっとたいむ",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市笹沖180　くらしき健康福祉プラザ1F",
+            "tel": "086-434-9893",
+            "regular_holiday": null,
+            "lat": 34.5724923,
+            "lng": 133.7642627
+        },
+        {
+            "name": "ｃａｆｅ　晴風船",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県備前市日生町日生911",
+            "tel": "0869-72-0102",
+            "regular_holiday": null,
+            "lat": 34.7329427,
+            "lng": 134.2669138
+        },
+        {
+            "name": "古民家珈琲大多羅庵",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市東区大多羅町154-1",
+            "tel": "086-944-4356",
+            "regular_holiday": null,
+            "lat": 34.6641444,
+            "lng": 134.0050905
+        },
+        {
+            "name": "大門寿し",
+            "type": [
+                "sushi"
+            ],
+            "address": "岡山県岡山市南区万倍16-9",
+            "tel": "086-243-3128",
+            "regular_holiday": null,
+            "lat": 34.6265663,
+            "lng": 133.8971446
+        },
+        {
+            "name": "ワタナベ食堂",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県玉野市宇野1-27-1　玉野市役所食堂",
+            "tel": "0863-32-5582",
+            "regular_holiday": null,
+            "lat": 34.492177,
+            "lng": 133.946396
+        },
+        {
+            "name": "旬菜ワタナベ",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県玉野市宇野1-37-3　坂本コーポ1階",
+            "tel": "0863-32-5253",
+            "regular_holiday": null,
+            "lat": 34.4927995,
+            "lng": 133.9449641
+        },
+        {
+            "name": "華作",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県岡山県岡山市北区天神町2-1　天神町ビル101",
+            "tel": "086-233-8739",
+            "regular_holiday": null,
+            "lat": 34.6663051,
+            "lng": 133.9281972
+        },
+        {
+            "name": "下津井港",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区京橋町6-20　タカダビル1F",
+            "tel": "086-224-2106",
+            "regular_holiday": null,
+            "lat": 34.6586078,
+            "lng": 133.9307489
+        },
+        {
+            "name": "あぶと倉敷館",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県倉敷市船倉町1252-5",
+            "tel": "086-434-8038",
+            "regular_holiday": null,
+            "lat": 34.5940918,
+            "lng": 133.7720179
+        },
+        {
+            "name": "めん六や  岡山笠岡店",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県笠岡市用之江字天神端357-1　信頼の森敷地内",
+            "tel": "070-1455-6184",
+            "regular_holiday": null,
+            "lat": 34.505745,
+            "lng": 133.460232
+        },
+        {
+            "name": "武田屋七生",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県倉敷市玉島中央町1-6-15",
+            "tel": "086-436-7656",
+            "regular_holiday": null,
+            "lat": 34.543964,
+            "lng": 133.6719277
+        },
+        {
+            "name": "めん六や  岡山津山店",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県津山市高野本郷字有安2454-1　信頼の森敷地内",
+            "tel": "070-1455-6251",
+            "regular_holiday": null,
+            "lat": 35.0716667,
+            "lng": 134.0580556
+        },
+        {
+            "name": "ｂｉｓｔｒｏ　武田屋",
+            "type": [
+                "itarian"
+            ],
+            "address": "岡山県倉敷市玉島中央町1-12-31",
+            "tel": "086-523-6533",
+            "regular_holiday": null,
+            "lat": 34.5437221,
+            "lng": 133.6716739
+        },
+        {
+            "name": "めん六や  岡山真備店",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県倉敷市真備町川辺字糸田2059-13　信頼の森敷地内",
+            "tel": "070-1455-6315",
+            "regular_holiday": null,
+            "lat": 34.6355898,
+            "lng": 133.7113662
+        },
+        {
+            "name": "新倉敷食堂",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市新倉敷駅前4-57",
+            "tel": "086-522-0155",
+            "regular_holiday": null,
+            "lat": 34.5611271,
+            "lng": 133.6818993
+        },
+        {
+            "name": "めん六や  岡山院庄店",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県津山市神戸518　ダイナム敷地内",
+            "tel": "070-1455-7725",
+            "regular_holiday": null,
+            "lat": 35.0685328,
+            "lng": 133.9401036
+        },
+        {
+            "name": "岡山原尾島食堂",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市中区原尾島3-16-8",
+            "tel": "086-272-1854",
+            "regular_holiday": null,
+            "lat": 34.6692401,
+            "lng": 133.951257
+        },
+        {
+            "name": "ＹＡＫＩＮＩＫＵぶん",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市東区西大寺中2-9-8",
+            "tel": "086-943-5528",
+            "regular_holiday": null,
+            "lat": 34.6553722,
+            "lng": 134.0324498
+        },
+        {
+            "name": "できたておむすび米米　岡北店",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区中井町2-2-7　天満屋ハピータウン岡北店　1F",
+            "tel": "086-206-2360",
+            "regular_holiday": null,
+            "lat": 34.6793919,
+            "lng": 133.9285782
+        },
+        {
+            "name": "めん六や  東岡山店",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県岡山市東区藤井289　ダイナム敷地内",
+            "tel": "070-1455-7475",
+            "regular_holiday": null,
+            "lat": 34.6893214,
+            "lng": 134.0026728
+        },
+        {
+            "name": "旬の味臼山",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県岡山市南区千鳥町17-13",
+            "tel": "086-263-0301",
+            "regular_holiday": null,
+            "lat": 34.6134141,
+            "lng": 133.9454256
+        },
+        {
+            "name": "めん六や  児島店",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県倉敷市児島駅前3-16-1　ダイナム敷地内",
+            "tel": "070-1455-9046",
+            "regular_holiday": null,
+            "lat": 34.463428,
+            "lng": 133.809034
+        },
+        {
+            "name": "自然料理とワインＣＵＯＲＥ",
+            "type": [
+                "itarian"
+            ],
+            "address": "岡山県岡山市南区築港栄町8-21　国本ビル1F右",
+            "tel": "086-259-5596",
+            "regular_holiday": null,
+            "lat": 34.607205,
+            "lng": 133.944612
+        },
+        {
+            "name": "味心逆瀬川",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県赤磐市高屋369-3",
+            "tel": "086-958-5205",
+            "regular_holiday": null,
+            "lat": 34.7563235,
+            "lng": 134.0211575
+        },
+        {
+            "name": "焼肉大山食堂",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市北区駅前町1-10-22",
+            "tel": "086-223-2370",
+            "regular_holiday": null,
+            "lat": 34.6666014,
+            "lng": 133.9224251
+        },
+        {
+            "name": "とり旬",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区下伊福本町1-44",
+            "tel": "086-255-4200",
+            "regular_holiday": null,
+            "lat": 34.6634059,
+            "lng": 133.9045196
+        },
+        {
+            "name": "中国料理　おふろ",
+            "type": [
+                "chinese"
+            ],
+            "address": "岡山県岡山市北区西辛川654-1",
+            "tel": "086-284-8819",
+            "regular_holiday": null,
+            "lat": 34.678759,
+            "lng": 133.8530973
+        },
+        {
+            "name": "旬彩一の蔵",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市児島元浜町119-4",
+            "tel": "086-474-0025",
+            "regular_holiday": null,
+            "lat": 34.4571193,
+            "lng": 133.805362
+        },
+        {
+            "name": "タイ料理バンコク",
+            "type": [
+                "fusion"
+            ],
+            "address": "岡山県岡山市北区田町2-11-1　田町特選ビル1F",
+            "tel": "086-226-3503",
+            "regular_holiday": null,
+            "lat": 34.6592177,
+            "lng": 133.9252979
+        },
+        {
+            "name": "焼肉亭　桂かじゅある",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市中区平井3-888-3",
+            "tel": "086-277-2941",
+            "regular_holiday": null,
+            "lat": 34.6354051,
+            "lng": 133.9491061
+        },
+        {
+            "name": "三松食堂",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市南区福富中1-15-27",
+            "tel": "086-262-1054",
+            "regular_holiday": null,
+            "lat": 34.6230261,
+            "lng": 133.9363206
+        },
+        {
+            "name": "Ｃｏｆｆｅｅ　Ｒｏａｓｔ　ＣＯＣＨＩ",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県備前市大内547-2",
+            "tel": "0869-66-9258",
+            "regular_holiday": null,
+            "lat": 34.7360829,
+            "lng": 134.1381568
+        },
+        {
+            "name": "創菜や　わびすけ",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区本町2-13　竹広ビル2F",
+            "tel": "086-231-3958",
+            "regular_holiday": null,
+            "lat": 34.665062,
+            "lng": 133.921321
+        },
+        {
+            "name": "おおもり",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県備前市日生町日生2225-1",
+            "tel": "0869-72-3511",
+            "regular_holiday": null,
+            "lat": 34.7312127,
+            "lng": 134.2668692
+        },
+        {
+            "name": "和食にしざき",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市東区可知3-2-35",
+            "tel": "086-943-0776",
+            "regular_holiday": null,
+            "lat": 34.6587947,
+            "lng": 134.0028581
+        },
+        {
+            "name": "タータンチェック",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区表町3-6-39",
+            "tel": null,
+            "regular_holiday": null,
+            "lat": 34.6588072,
+            "lng": 133.9292995
+        },
+        {
+            "name": "焼肉花いちもんめ",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県小田郡矢掛町江良2456-7",
+            "tel": "0866-84-1187",
+            "regular_holiday": null,
+            "lat": 34.6145752,
+            "lng": 133.5685687
+        },
+        {
+            "name": "庵々",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市中区藤原72-2",
+            "tel": "086-272-9524",
+            "regular_holiday": null,
+            "lat": 34.6749374,
+            "lng": 133.9587029
+        },
+        {
+            "name": "うまいもんあるもに",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区中山下2-1-53",
+            "tel": "086-226-7789",
+            "regular_holiday": null,
+            "lat": 34.6607285,
+            "lng": 133.9272282
+        },
+        {
+            "name": "お食事処　たき",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市東塚5-2-11",
+            "tel": "086-455-8558",
+            "regular_holiday": null,
+            "lat": 34.5289913,
+            "lng": 133.7628647
+        },
+        {
+            "name": "海の料理らいでん",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県岡山市北区柳町2-10-18",
+            "tel": "086-222-5121",
+            "regular_holiday": null,
+            "lat": 34.6565497,
+            "lng": 133.9225468
+        },
+        {
+            "name": "鉄板屋　桃太郎",
+            "type": [
+                "okonomiyaki"
+            ],
+            "address": "岡山県岡山市北区本町6-36　第1セントラルヒルB1",
+            "tel": "086-223-7762",
+            "regular_holiday": null,
+            "lat": 34.6643017,
+            "lng": 133.9199011
+        },
+        {
+            "name": "軽食喫茶　多都味",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区辰巳2-111",
+            "tel": "080-2942-6371",
+            "regular_holiday": null,
+            "lat": 34.6405211,
+            "lng": 133.8908149
+        },
+        {
+            "name": "居酒屋厨",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市阿知2-3-11",
+            "tel": "086-422-7786",
+            "regular_holiday": null,
+            "lat": 34.6013178,
+            "lng": 133.7680238
+        },
+        {
+            "name": "洋風厨房　五感",
+            "type": [
+                "western"
+            ],
+            "address": "岡山県総社市清音上中島167-12",
+            "tel": "0866-31-5696",
+            "regular_holiday": null,
+            "lat": 34.6466144,
+            "lng": 133.7336146
+        },
+        {
+            "name": "喫茶フリーク",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市南区郡1401-2",
+            "tel": "086-267-3751",
+            "regular_holiday": null,
+            "lat": 34.582864,
+            "lng": 133.9590804
+        },
+        {
+            "name": "満天茶屋",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県小田郡矢掛町矢掛2575-6",
+            "tel": "090-6414-2575",
+            "regular_holiday": null,
+            "lat": 34.6244238,
+            "lng": 133.5911829
+        },
+        {
+            "name": "喫茶軽食プラザ",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市南区市場1-1　関連棟100番106番",
+            "tel": "086-265-3131",
+            "regular_holiday": null,
+            "lat": 34.6007766,
+            "lng": 133.9461637
+        },
+        {
+            "name": "高山鮮魚店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県勝田郡勝央町勝間田722-1",
+            "tel": "0868-38-2122",
+            "regular_holiday": null,
+            "lat": 35.0372598,
+            "lng": 134.1170644
+        },
+        {
+            "name": "焼肉ぽんきっき",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県倉敷市児島小川1-6-2",
+            "tel": "086-473-2917",
+            "regular_holiday": null,
+            "lat": 34.4697393,
+            "lng": 133.8065557
+        },
+        {
+            "name": "韓国料理・焼肉　蓮玉",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県勝田郡奈義町久常249",
+            "tel": "0868-36-5929",
+            "regular_holiday": null,
+            "lat": 35.1228292,
+            "lng": 134.1816482
+        },
+        {
+            "name": "だんだん亭",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区柳町1-6-101",
+            "tel": "086-225-2270",
+            "regular_holiday": null,
+            "lat": 34.6596494,
+            "lng": 133.9205091
+        },
+        {
+            "name": "キッチン喫茶きゃろっと亭",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市新倉敷駅前5-244-2",
+            "tel": "086-526-8901",
+            "regular_holiday": null,
+            "lat": 34.5602184,
+            "lng": 133.6778715
+        },
+        {
+            "name": "旬工房",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県勝田郡奈義町滝本476-1",
+            "tel": "0868-36-8341",
+            "regular_holiday": null,
+            "lat": 35.1187204,
+            "lng": 134.1620646
+        },
+        {
+            "name": "佑佐喜屋",
+            "type": [
+                "sushi"
+            ],
+            "address": "岡山県備前市日生町日生246-42",
+            "tel": "0869-72-2304",
+            "regular_holiday": null,
+            "lat": 34.7333634,
+            "lng": 134.2721308
+        },
+        {
+            "name": "喫茶　カニドン",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区表町2-1-40-2",
+            "tel": "086-222-3887",
+            "regular_holiday": null,
+            "lat": 34.6609489,
+            "lng": 133.9290078
+        },
+        {
+            "name": "さくら屋",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区高松稲荷485-1",
+            "tel": "086-287-2400",
+            "regular_holiday": null,
+            "lat": 34.7050614,
+            "lng": 133.8335805
+        },
+        {
+            "name": "炭火焼居酒屋　宮尾",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県浅口市鴨方町鴨方757-1",
+            "tel": "0865-44-3802",
+            "regular_holiday": null,
+            "lat": 34.5396824,
+            "lng": 133.5834688
+        },
+        {
+            "name": "活魚料理海舟",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県倉敷市児島駅前2-10",
+            "tel": "086-472-6407",
+            "regular_holiday": null,
+            "lat": 34.4654396,
+            "lng": 133.8064454
+        },
+        {
+            "name": "Ｋ’ｓ　ＧＡＲＤＥＮ　ケーズ・ガーデン",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県美作市湯郷444",
+            "tel": "0868-72-7770",
+            "regular_holiday": null,
+            "lat": 34.9921967,
+            "lng": 134.1377672
+        },
+        {
+            "name": "焼肉坂本",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市南区新福1-4-8",
+            "tel": "086-261-1129",
+            "regular_holiday": null,
+            "lat": 34.6303014,
+            "lng": 133.9341831
+        },
+        {
+            "name": "浅口劇場",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県浅口市鴨方町鴨方1647-1",
+            "tel": "0865-45-8092",
+            "regular_holiday": null,
+            "lat": 34.5396235,
+            "lng": 133.5871208
+        },
+        {
+            "name": "てんぷら千の種",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県岡山市北区野田屋町1-10-20",
+            "tel": "086-230-0896",
+            "regular_holiday": null,
+            "lat": 34.6666941,
+            "lng": 133.925658
+        },
+        {
+            "name": "２０３ｃａｆｅ",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区問屋町11-106　TOIYACHOU BOOTH BLD 2F203号",
+            "tel": "086-250-0203",
+            "regular_holiday": null,
+            "lat": 34.6447889,
+            "lng": 133.8893594
+        },
+        {
+            "name": "カフェ碧い森",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市東区西大寺中野25-6",
+            "tel": "086-944-0778",
+            "regular_holiday": null,
+            "lat": 34.6502576,
+            "lng": 134.0270804
+        },
+        {
+            "name": "焼肉ジュージュー",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県赤磐市正崎534-1",
+            "tel": "086-955-5800",
+            "regular_holiday": null,
+            "lat": 34.7656114,
+            "lng": 134.0132616
+        },
+        {
+            "name": "野菜食堂　こやま",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区田町1-3-35",
+            "tel": "086-234-0315",
+            "regular_holiday": null,
+            "lat": 34.6620632,
+            "lng": 133.9256949
+        },
+        {
+            "name": "早島町いかしの舎",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県都窪郡早島町早島1466",
+            "tel": "086-483-1243",
+            "regular_holiday": null,
+            "lat": 34.6027216,
+            "lng": 133.8258686
+        },
+        {
+            "name": "お好み焼サッチャン　サッチャンやきそば",
+            "type": [
+                "okonomiyaki"
+            ],
+            "address": "岡山県津山市中北下1181-6",
+            "tel": "0868-57-3239",
+            "regular_holiday": null,
+            "lat": 35.0604391,
+            "lng": 133.8980435
+        },
+        {
+            "name": "なか卯　岡山中山下店",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区中山下1-8-1　ﾛｲﾔﾙｺｰﾎﾟ1F ",
+            "tel": "0120-29-5770",
+            "regular_holiday": null,
+            "lat": 34.663733,
+            "lng": 133.9266507
+        },
+        {
+            "name": "なか卯　岡山下石井店",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区下石井2-2-8 ",
+            "tel": "0120-29-5770",
+            "regular_holiday": null,
+            "lat": 34.6592212,
+            "lng": 133.9188647
+        },
+        {
+            "name": "ARIZONO",
+            "type": [
+                "itarian"
+            ],
+            "address": "岡山県岡山市北区青江2-10-33",
+            "tel": "086-225-2692",
+            "regular_holiday": null,
+            "lat": 34.6317633,
+            "lng": 133.9195048
+        },
+        {
+            "name": "なか卯　倉敷黒崎店",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市黒崎611-1",
+            "tel": "0120-29-5770",
+            "regular_holiday": null,
+            "lat": 34.6074808,
+            "lng": 133.7889977
+        },
+        {
+            "name": "和食　旭",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県真庭市下市瀬586-1",
+            "tel": "080-6308-3330",
+            "regular_holiday": null,
+            "lat": 35.0241768,
+            "lng": 133.7364062
+        },
+        {
+            "name": "割烹う乃　",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県高梁市正宗町1967-1",
+            "tel": "0866-22-0080",
+            "regular_holiday": null,
+            "lat": 34.7897831,
+            "lng": 133.6171896
+        },
+        {
+            "name": "カフェ　バラード",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県倉敷市阿知3-21-16",
+            "tel": "086-421-6654",
+            "regular_holiday": null,
+            "lat": 34.5967065,
+            "lng": 133.7684426
+        },
+        {
+            "name": "あまのじゃく",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区磨屋町7-5-2",
+            "tel": "086-234-4827",
+            "regular_holiday": null,
+            "lat": 34.663715,
+            "lng": 133.9248441
+        },
+        {
+            "name": "焼肉　七福",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市南区福田１８３－４",
+            "tel": "086-264-5201",
+            "regular_holiday": null,
+            "lat": 34.6175626,
+            "lng": 133.9274412
+        },
+        {
+            "name": "La Pirata",
+            "type": [
+                "itarian"
+            ],
+            "address": "岡山県瀬戸内市邑久町豊原179-1",
+            "tel": "0859-24-7648",
+            "regular_holiday": null,
+            "lat": 34.6605431,
+            "lng": 134.0873341
+        },
+        {
+            "name": "居食家 エビス水産今店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区今8-16-30",
+            "tel": "086-242-6133",
+            "regular_holiday": null,
+            "lat": 34.6368566,
+            "lng": 133.8922778
+        },
+        {
+            "name": "おのしん",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県笠岡市吉田67-2",
+            "tel": "0865-65-0807",
+            "regular_holiday": null,
+            "lat": 34.5460261,
+            "lng": 133.5204891
+        },
+        {
+            "name": "Bar Ric's Cafe'",
+            "type": [
+                "diningbar"
+            ],
+            "address": "岡山県倉敷市阿知2-11-23 横溝ビル2階",
+            "tel": "086-421-9400",
+            "regular_holiday": null,
+            "lat": 34.5996411,
+            "lng": 133.7679218
+        },
+        {
+            "name": "お好み焼き嵯峨野中庄店",
+            "type": [
+                "okonomiyaki"
+            ],
+            "address": "岡山県倉敷市中庄3523-12",
+            "tel": "086-462-2730",
+            "regular_holiday": null,
+            "lat": 34.623067,
+            "lng": 133.8055641
+        },
+        {
+            "name": "斗為巾(といきん)",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市水島東常盤町6-18　横井コーポ1階右側店舗",
+            "tel": "090-8062-1003",
+            "regular_holiday": null,
+            "lat": 34.533846,
+            "lng": 133.742181
+        },
+        {
+            "name": "喰処　介",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県美作市北山1577-5",
+            "tel": "0868-72-3515",
+            "regular_holiday": null,
+            "lat": 35.0253435,
+            "lng": 134.161551
+        },
+        {
+            "name": "ほっとたいむⅡ",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市白楽町249-5　倉敷商工会議所1F",
+            "tel": "086-421-3391",
+            "regular_holiday": null,
+            "lat": 34.588209,
+            "lng": 133.7645873
+        },
+        {
+            "name": "市庁舎食堂",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市西中新田640　厚生棟1F",
+            "tel": "086-426-3621",
+            "regular_holiday": null,
+            "lat": 34.5846605,
+            "lng": 133.7722802
+        },
+        {
+            "name": "岡山藤田おにぎり茶屋",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市南区藤田1423",
+            "tel": "086-296-5005",
+            "regular_holiday": null,
+            "lat": 34.5870217,
+            "lng": 133.8873364
+        },
+        {
+            "name": "水島支所食堂",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市水島北幸町1-1　水島支所1F",
+            "tel": "086-444-2299",
+            "regular_holiday": null,
+            "lat": 34.539799,
+            "lng": 133.741324
+        },
+        {
+            "name": "Ｇｒｉｄ　Ｋｉｔｃｈｅｎ",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県玉野市八浜町見石883-50",
+            "tel": "0863-53-9266",
+            "regular_holiday": null,
+            "lat": 34.5652447,
+            "lng": 133.944219
+        },
+        {
+            "name": "ばーる　ぼっこーね。",
+            "type": [
+                "itarian"
+            ],
+            "address": "岡山県岡山市北区出石町1-8-1　2F",
+            "tel": "086-231-2588",
+            "regular_holiday": null,
+            "lat": 34.6695565,
+            "lng": 133.9310796
+        },
+        {
+            "name": "鮨竹",
+            "type": [
+                "sushi"
+            ],
+            "address": "岡山県岡山市北区伊福町2-17-28",
+            "tel": "086-254-1176",
+            "regular_holiday": null,
+            "lat": 34.6749752,
+            "lng": 133.9174251
+        },
+        {
+            "name": "酒家　燦々亭",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区野田屋町1-6-18　西部ビル1F",
+            "tel": "086-206-1433",
+            "regular_holiday": null,
+            "lat": 34.6658663,
+            "lng": 133.9243209
+        },
+        {
+            "name": "丸福酒店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区平和町6-5　森安ビル1F",
+            "tel": "086-230-1029",
+            "regular_holiday": null,
+            "lat": 34.6637177,
+            "lng": 133.9234642
+        },
+        {
+            "name": "はれお",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区柳町1-13-15　村土ビル",
+            "tel": "086-289-0929",
+            "regular_holiday": null,
+            "lat": 34.6585562,
+            "lng": 133.9213956
+        },
+        {
+            "name": "焼肉・ハング",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県美作市中町143-10",
+            "tel": "0868-78-3129",
+            "regular_holiday": null,
+            "lat": 35.109212,
+            "lng": 134.326545
+        },
+        {
+            "name": "朝まで屋　中庄店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市松島1144-1",
+            "tel": "086-463-0083",
+            "regular_holiday": null,
+            "lat": 34.6287339,
+            "lng": 133.8033632
+        },
+        {
+            "name": "焼肉ことぶき",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市中区森下町2-24",
+            "tel": "086-273-6121",
+            "regular_holiday": null,
+            "lat": 34.6639028,
+            "lng": 133.9430379
+        },
+        {
+            "name": "手打うどん　百年屋　和",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県岡山市北区上中野2-27-24",
+            "tel": "086-244-4303",
+            "regular_holiday": null,
+            "lat": 34.6419637,
+            "lng": 133.8989579
+        },
+        {
+            "name": "焼肉　巨城里　田町店",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市北区田町2-11-1　特選街ビル1F",
+            "tel": "086-233-4939",
+            "regular_holiday": null,
+            "lat": 34.6592068,
+            "lng": 133.9253277
+        },
+        {
+            "name": "カフェ・ベレーザ",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県高梁市原田北町1210-6",
+            "tel": "0866-22-0746",
+            "regular_holiday": null,
+            "lat": 34.7851768,
+            "lng": 133.6163645
+        },
+        {
+            "name": "成田家　平野店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区平野823-11",
+            "tel": "086-293-5525",
+            "regular_holiday": null,
+            "lat": 34.6464982,
+            "lng": 133.8586336
+        },
+        {
+            "name": "穂浪",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県岡山市北区蕃山町7-31",
+            "tel": "086-221-8055",
+            "regular_holiday": null,
+            "lat": 34.666808,
+            "lng": 133.9273067
+        },
+        {
+            "name": "ココロの時間",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県玉野市槌ケ原2080-1",
+            "tel": "0863-71-3233",
+            "regular_holiday": null,
+            "lat": 34.5231795,
+            "lng": 133.9046153
+        },
+        {
+            "name": "稲荷　ときわや",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区高松稲荷589",
+            "tel": "086-287-3088",
+            "regular_holiday": null,
+            "lat": 34.7063864,
+            "lng": 133.8327955
+        },
+        {
+            "name": "想ひでの店　若草",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市東区神崎町1833-1",
+            "tel": "086-942-4460",
+            "regular_holiday": null,
+            "lat": 34.6327621,
+            "lng": 134.0479218
+        },
+        {
+            "name": "もり",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県新見市高尾2484-10",
+            "tel": "0867-72-1203",
+            "regular_holiday": null,
+            "lat": 34.9890876,
+            "lng": 133.4580351
+        },
+        {
+            "name": "ｕｆｕ－ｕｆｕ",
+            "type": [
+                "western"
+            ],
+            "address": "岡山県岡山市北区南方1-7-13　リベルテ南方",
+            "tel": "086-238-8690",
+            "regular_holiday": null,
+            "lat": 34.6729519,
+            "lng": 133.9260544
+        },
+        {
+            "name": "讃岐うどん　てん",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県倉敷市連島町鶴新田1746-3",
+            "tel": "070-5303-7511",
+            "regular_holiday": null,
+            "lat": 34.5368695,
+            "lng": 133.7182345
+        },
+        {
+            "name": "天下一品　岡山西川原店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県岡山市中区西川原134-1",
+            "tel": "086-272-0101",
+            "regular_holiday": null,
+            "lat": 34.6795464,
+            "lng": 133.9426454
+        },
+        {
+            "name": "カフェLeaf",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県倉敷市西田227-1",
+            "tel": "086-483-2425",
+            "regular_holiday": null,
+            "lat": 34.5954314,
+            "lng": 133.8084628
+        },
+        {
+            "name": "鷲羽山下電ホテル",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市大畠1666-2",
+            "tel": "086-479-7111",
+            "regular_holiday": null,
+            "lat": 34.4324265,
+            "lng": 133.8159932
+        },
+        {
+            "name": "鴨方グリーンホテル",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県浅口市鴨方町鴨方937-1",
+            "tel": "0865-44-0011",
+            "regular_holiday": null,
+            "lat": 34.5364901,
+            "lng": 133.5879651
+        },
+        {
+            "name": "みやけ亭",
+            "type": [
+                "western"
+            ],
+            "address": "岡山県倉敷市阿知2-23-8",
+            "tel": "086-421-6966",
+            "regular_holiday": null,
+            "lat": 34.5975289,
+            "lng": 133.7704117
+        },
+        {
+            "name": "大衆酒場 串かつ三次",
+            "type": [
+                "publicbar"
+            ],
+            "address": "岡山県倉敷市水島西常盤町9-7",
+            "tel": "086-444-3377",
+            "regular_holiday": null,
+            "lat": 34.5345808,
+            "lng": 133.7407799
+        },
+        {
+            "name": "居酒屋ダイニング時宝堂",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市南区妹尾43-5",
+            "tel": "086-250-8999",
+            "regular_holiday": null,
+            "lat": 34.612105,
+            "lng": 133.875064
+        },
+        {
+            "name": "岡山コーヒー館グリーンスタイル和気",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県和気郡和気町福富510",
+            "tel": "0869-93-4000",
+            "regular_holiday": null,
+            "lat": 34.7944832,
+            "lng": 134.1528165
+        },
+        {
+            "name": "肉屋　久",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市中区藤原西町1-6-45",
+            "tel": "050-1157-7477",
+            "regular_holiday": null,
+            "lat": 34.6738247,
+            "lng": 133.9580105
+        },
+        {
+            "name": "キャンドル卓 渡邉邸",
+            "type": [
+                "french"
+            ],
+            "address": "岡山県倉敷市中央2-5-19",
+            "tel": "086-435-3930",
+            "regular_holiday": null,
+            "lat": 34.5958906,
+            "lng": 133.7680994
+        },
+        {
+            "name": "恵比寿屋",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市福江289",
+            "tel": "086-485-2431",
+            "regular_holiday": null,
+            "lat": 34.5300822,
+            "lng": 133.8000301
+        },
+        {
+            "name": "レストラン喫茶むぎわらぼうし",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県津山市林田29-21",
+            "tel": "0868-24-4639",
+            "regular_holiday": null,
+            "lat": 35.0690819,
+            "lng": 134.0115269
+        },
+        {
+            "name": "隠れ屋ごはん　夜いち。",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区柳町2-2-18",
+            "tel": "086-238-6006",
+            "regular_holiday": null,
+            "lat": 34.6579601,
+            "lng": 133.9211913
+        },
+        {
+            "name": "善ぞう",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市阿知2-8-8",
+            "tel": "086-423-0030",
+            "regular_holiday": null,
+            "lat": 34.6001447,
+            "lng": 133.7679125
+        },
+        {
+            "name": "お好み焼・鉄板焼　ねぎぼうず",
+            "type": [
+                "okonomiyaki"
+            ],
+            "address": "岡山県倉敷市連島町西之浦390-7",
+            "tel": "086-444-3008",
+            "regular_holiday": null,
+            "lat": 34.5491542,
+            "lng": 133.7168871
+        },
+        {
+            "name": "天下一品　岡山大供店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県岡山市北区大供本町473-1",
+            "tel": "086-222-8101",
+            "regular_holiday": null,
+            "lat": 34.6527788,
+            "lng": 133.912077
+        },
+        {
+            "name": "天下一品　倉敷インター店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県倉敷市浜ノ茶屋273-3",
+            "tel": "086-441-2477",
+            "regular_holiday": null,
+            "lat": 34.6119066,
+            "lng": 133.7711092
+        },
+        {
+            "name": "天下一品　岡山洲崎店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県岡山市南区福浜西町1-11",
+            "tel": "086-263-9101",
+            "regular_holiday": null,
+            "lat": 34.6219056,
+            "lng": 133.9428824
+        },
+        {
+            "name": "お好み焼き　まつお",
+            "type": [
+                "okonomiyaki"
+            ],
+            "address": "岡山県倉敷市日吉町290-8",
+            "tel": "080-4556-7218",
+            "regular_holiday": null,
+            "lat": 34.6027542,
+            "lng": 133.7545942
+        },
+        {
+            "name": "お好み焼　あっちゃん",
+            "type": [
+                "okonomiyaki"
+            ],
+            "address": "岡山県倉敷市児島駅前1-88",
+            "tel": "086-472-9108",
+            "regular_holiday": null,
+            "lat": 34.4644927,
+            "lng": 133.8027013
+        },
+        {
+            "name": "ｐｉｃｃｏｌｏ　ｔｅｒｒａｃｅ",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区足守1229",
+            "tel": "086-897-6012",
+            "regular_holiday": null,
+            "lat": 34.7289115,
+            "lng": 133.8037181
+        },
+        {
+            "name": "麵や倉敷",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市北畝1-18-16",
+            "tel": "086-454-6588",
+            "regular_holiday": null,
+            "lat": 34.5393201,
+            "lng": 133.7499624
+        },
+        {
+            "name": "三岳屋",
+            "type": [
+                "publicbar"
+            ],
+            "address": "岡山県岡山市東区西大寺中1-16-13",
+            "tel": "086-206-3013",
+            "regular_holiday": null,
+            "lat": 34.6539802,
+            "lng": 134.0357941
+        },
+        {
+            "name": "デプレカフェ",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区表町1-9-51",
+            "tel": "086-231-3468",
+            "regular_holiday": null,
+            "lat": 34.662851,
+            "lng": 133.9295616
+        },
+        {
+            "name": "桂屋",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市南区千鳥町29-21",
+            "tel": "086-263-6564",
+            "regular_holiday": null,
+            "lat": 34.6106794,
+            "lng": 133.948584
+        },
+        {
+            "name": "炭焼職人",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区上中野1-4-11",
+            "tel": "086-243-0141",
+            "regular_holiday": null,
+            "lat": 34.6442188,
+            "lng": 133.9014428
+        },
+        {
+            "name": "めん六や  岡山倉敷中島店",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県倉敷市中島1447-1　ダイナム敷地内",
+            "tel": "070-1455-5758",
+            "regular_holiday": null,
+            "lat": 34.5775566,
+            "lng": 133.7298889
+        },
+        {
+            "name": "民宿よしだ",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県備前市日生町日生241-122",
+            "tel": "0869-72-1188",
+            "regular_holiday": null,
+            "lat": 34.7342829,
+            "lng": 134.2748621
+        },
+        {
+            "name": "焼肉ふたば（二葉精肉店）",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県倉敷市鶴形1-4-1-112",
+            "tel": "086-425-2981",
+            "regular_holiday": null,
+            "lat": 34.6011001,
+            "lng": 133.7702023
+        },
+        {
+            "name": "中華　啓ちゃん",
+            "type": [
+                "chinese"
+            ],
+            "address": "岡山県井原市井原町129-1",
+            "tel": "0866-62-7213",
+            "regular_holiday": null,
+            "lat": 34.5957254,
+            "lng": 133.4637466
+        },
+        {
+            "name": "焼肉中村屋　妹尾店",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市南区妹尾2327-1",
+            "tel": "086-281-2552",
+            "regular_holiday": null,
+            "lat": 34.6181755,
+            "lng": 133.8718399
+        },
+        {
+            "name": "居酒屋はくび",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県高梁市正宗町2035八木ビル1階",
+            "tel": "086-622-0086",
+            "regular_holiday": null,
+            "lat": 34.7904256,
+            "lng": 133.6168248
+        },
+        {
+            "name": "玉広",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県倉敷市玉島中央町3-1-30",
+            "tel": "086-522-2838",
+            "regular_holiday": null,
+            "lat": 34.5452234,
+            "lng": 133.6704288
+        },
+        {
+            "name": "ラトゥリエ　ドゥ　ニニキネ岡山　山陽新聞本社ビル店",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区柳町2-1-1",
+            "tel": "086-803-8203",
+            "regular_holiday": null,
+            "lat": 34.6581015,
+            "lng": 133.9199508
+        },
+        {
+            "name": "備前洲崎八右衛門",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市南区洲崎2-1-1",
+            "tel": "086-902-2281",
+            "regular_holiday": null,
+            "lat": 34.6233171,
+            "lng": 133.942163
+        },
+        {
+            "name": "サンマルクカフェ　イオンモール倉敷店",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県倉敷市水江1　（イオンモール倉敷2F）",
+            "tel": "086-421-0309",
+            "regular_holiday": null,
+            "lat": 34.6031429,
+            "lng": 133.7462133
+        },
+        {
+            "name": "ずんどう屋　岡山平井店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県岡山市中区平井6-3-21",
+            "tel": "086-201-4084",
+            "regular_holiday": null,
+            "lat": 34.6407955,
+            "lng": 133.9374756
+        },
+        {
+            "name": "RACCOS　BURGER",
+            "type": [
+                "hamburger"
+            ],
+            "address": "岡山県岡山市北区磨屋町5-19",
+            "tel": "086-221-5351",
+            "regular_holiday": null,
+            "lat": 34.6640391,
+            "lng": 133.9247686
+        },
+        {
+            "name": "中華台湾料理　花とら",
+            "type": [
+                "chinese"
+            ],
+            "address": "岡山県津山市市戸部705-9　キュリアスモールB号",
+            "tel": "0868-23-2730",
+            "regular_holiday": null,
+            "lat": 35.0746261,
+            "lng": 134.0169818
+        },
+        {
+            "name": "炉端焼き だんけ ",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県井原市七日市町118",
+            "tel": "0866-62-7576",
+            "regular_holiday": null,
+            "lat": 34.595389,
+            "lng": 133.4683549
+        },
+        {
+            "name": "PIZZERIA澪-MIO-",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県高梁市本町33",
+            "tel": "0866-21-3863",
+            "regular_holiday": null,
+            "lat": 34.7973227,
+            "lng": 133.6156338
+        },
+        {
+            "name": "珈琲と人",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県総社市三須796",
+            "tel": "0866-92-2300",
+            "regular_holiday": null,
+            "lat": 34.6715895,
+            "lng": 133.7699502
+        },
+        {
+            "name": "森ノナカノカフェ",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県真庭市田原山上2138",
+            "tel": "0867-45-1270",
+            "regular_holiday": null,
+            "lat": 34.9800848,
+            "lng": 133.7489897
+        },
+        {
+            "name": "ずんどう屋　倉敷神田店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県倉敷市神田3-14-7",
+            "tel": "086-441-8440",
+            "regular_holiday": null,
+            "lat": 34.5444562,
+            "lng": 133.7320607
+        },
+        {
+            "name": "焼肉しゃんぼうる",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市北区横井上83-3　エブリイOkanaka津高店２階",
+            "tel": "080-3885-4129",
+            "regular_holiday": null,
+            "lat": 34.7002754,
+            "lng": 133.902135
+        },
+        {
+            "name": "山のピザ屋　ぷらてりーあ",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県真庭市社2186番地4",
+            "tel": "0867-45-7234",
+            "regular_holiday": null,
+            "lat": 35.1776663,
+            "lng": 133.7573489
+        },
+        {
+            "name": "うおじま",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県岡山市南区福富西1-3-23",
+            "tel": "086-263-7997",
+            "regular_holiday": null,
+            "lat": 34.625916,
+            "lng": 133.9332437
+        },
+        {
+            "name": "morefruits（モアフル）",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区奉還町3-7-16",
+            "tel": "080-9582-9021",
+            "regular_holiday": null,
+            "lat": 34.6688885,
+            "lng": 133.9120284
+        },
+        {
+            "name": "かがしや",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区津島中3-6-1",
+            "tel": "090-8466-5432",
+            "regular_holiday": null,
+            "lat": 34.6877997,
+            "lng": 133.922063
+        },
+        {
+            "name": "UPINNカフェ",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県玉野市築港1-4-4",
+            "tel": "0863-21-2729",
+            "regular_holiday": null,
+            "lat": 34.4940055,
+            "lng": 133.9527121
+        },
+        {
+            "name": "レストランまつもと",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県瀬戸内市邑久町山田庄217-2",
+            "tel": "0869-24-2337",
+            "regular_holiday": null,
+            "lat": 34.6705889,
+            "lng": 134.0931462
+        },
+        {
+            "name": "ピーズガーデン",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区平田102-108　Tフラッツ１F西側",
+            "tel": "086-897-4382",
+            "regular_holiday": null,
+            "lat": 34.6365751,
+            "lng": 133.8905266
+        },
+        {
+            "name": "万料理　みずぐち",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市阿知2-6-22",
+            "tel": "086-426-0162",
+            "regular_holiday": null,
+            "lat": 34.6002953,
+            "lng": 133.7684465
+        },
+        {
+            "name": "お好み焼き静香",
+            "type": [
+                "okonomiyaki"
+            ],
+            "address": "岡山県美作市巨勢1651-1",
+            "tel": "0868-72-8188",
+            "regular_holiday": null,
+            "lat": 34.9671427,
+            "lng": 134.1342068
+        },
+        {
+            "name": "荷葉（カヨウ）",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県笠岡市五番町5-14",
+            "tel": "070-3777-9237",
+            "regular_holiday": null,
+            "lat": 34.498796,
+            "lng": 133.5112376
+        },
+        {
+            "name": "瑪蜜黛（モミトイ） 天満屋岡山店",
+            "type": [
+                "sweets"
+            ],
+            "address": "岡山県岡山市北区表町2-1-1天満屋　岡山店",
+            "tel": "086-231-7099",
+            "regular_holiday": null,
+            "lat": 34.6618525,
+            "lng": 133.9289611
+        },
+        {
+            "name": "Osteria la Ricetta",
+            "type": [
+                "itarian"
+            ],
+            "address": "岡山県岡山市北区田町2-1-3　BOSCO2F",
+            "tel": "086-206-6220",
+            "regular_holiday": null,
+            "lat": 34.6602198,
+            "lng": 133.9233897
+        },
+        {
+            "name": "スパイスカフェぷくぷく",
+            "type": [
+                "curry"
+            ],
+            "address": "岡山県岡山市南区藤田651-9",
+            "tel": "086-296-8222",
+            "regular_holiday": null,
+            "lat": 34.6123406,
+            "lng": 133.904097
+        },
+        {
+            "name": "炙り家",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市南区福田158-5",
+            "tel": "086-259-3929",
+            "regular_holiday": null,
+            "lat": 34.6154149,
+            "lng": 133.9259612
+        },
+        {
+            "name": "三枚目  貝柱海老蔵",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区本町4-20  1F",
+            "tel": "086-224-2103",
+            "regular_holiday": null,
+            "lat": 34.6647798,
+            "lng": 133.9218422
+        },
+        {
+            "name": "花味庄屋",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県苫田郡鏡野町円宗寺233",
+            "tel": "0868-54-4311",
+            "regular_holiday": null,
+            "lat": 35.094571,
+            "lng": 133.9425984
+        },
+        {
+            "name": "やきとん　くわな",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市水島西常盤町10-12 1階",
+            "tel": "086-441-6946",
+            "regular_holiday": null,
+            "lat": 34.5352137,
+            "lng": 133.7404751
+        },
+        {
+            "name": "中華そば　こうた",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県倉敷市児島味野4047",
+            "tel": "086-697-6686",
+            "regular_holiday": null,
+            "lat": 34.4624232,
+            "lng": 133.8096583
+        },
+        {
+            "name": "お食事処　彩織",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市南区松浜町2-3",
+            "tel": "086-239-8544",
+            "regular_holiday": null,
+            "lat": 34.6143107,
+            "lng": 133.9417841
+        },
+        {
+            "name": "かどのみせトキ",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市南区妹尾242",
+            "tel": "086-282-1999",
+            "regular_holiday": null,
+            "lat": 34.6104748,
+            "lng": 133.8705392
+        },
+        {
+            "name": "居酒屋　一休",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市阿知2-10-14",
+            "tel": "086-426-0019",
+            "regular_holiday": null,
+            "lat": 34.599209,
+            "lng": 133.76829
+        },
+        {
+            "name": "魚定",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県真庭市勝山33-2",
+            "tel": "0867-44-2372",
+            "regular_holiday": null,
+            "lat": 35.0890091,
+            "lng": 133.6904145
+        },
+        {
+            "name": "讃岐の男うどん能勢",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県岡山市北区奉還町2-3-6",
+            "tel": "086-253-8686",
+            "regular_holiday": null,
+            "lat": 34.668476,
+            "lng": 133.9160842
+        },
+        {
+            "name": "焼肉亭　桂",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県倉敷市新田3207-1",
+            "tel": "086-422-4129",
+            "regular_holiday": null,
+            "lat": 34.5742585,
+            "lng": 133.7805551
+        },
+        {
+            "name": "せんはち",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市南区芳泉2-4-24",
+            "tel": "086-245-9257",
+            "regular_holiday": null,
+            "lat": 34.6219863,
+            "lng": 133.9088468
+        },
+        {
+            "name": "うどん　くうかい",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県岡山市北区今3-25-21",
+            "tel": "086-246-0606",
+            "regular_holiday": null,
+            "lat": 34.6485049,
+            "lng": 133.8912545
+        },
+        {
+            "name": "にっこりあ",
+            "type": [
+                "korean"
+            ],
+            "address": "岡山県岡山市北区柳町2-1-7　ラ・ポールビル1F101号",
+            "tel": "086-226-7658",
+            "regular_holiday": null,
+            "lat": 34.65832,
+            "lng": 133.92016
+        },
+        {
+            "name": "瀬戸内フルーツガーデン",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県瀬戸内市長船町長船723-1",
+            "tel": "0869-66-7015",
+            "regular_holiday": null,
+            "lat": 34.715922,
+            "lng": 134.100623
+        },
+        {
+            "name": "バールーベ",
+            "type": [
+                "diningbar"
+            ],
+            "address": "岡山県岡山市北区錦町8-11　フェリスビル4F",
+            "tel": "086-222-0144",
+            "regular_holiday": null,
+            "lat": 34.6630886,
+            "lng": 133.9225325
+        },
+        {
+            "name": "串まん 中庄店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市松島1144-1",
+            "tel": "086-441-9393",
+            "regular_holiday": null,
+            "lat": 34.6287339,
+            "lng": 133.8033632
+        },
+        {
+            "name": "gallery with cafe PeLOTON（プロトン）",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市船倉町1696",
+            "tel": "086-527-5293",
+            "regular_holiday": null,
+            "lat": 34.5942958,
+            "lng": 133.7744543
+        },
+        {
+            "name": "cafe themarket maimai",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区問屋町14-101",
+            "tel": "086-241-3141",
+            "regular_holiday": null,
+            "lat": 34.6448289,
+            "lng": 133.8890324
+        },
+        {
+            "name": "kitchen ekubo",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区野田屋町1-7-20　中野ビル1階",
+            "tel": "086-230-2780",
+            "regular_holiday": null,
+            "lat": 34.6658712,
+            "lng": 133.9245823
+        },
+        {
+            "name": "居酒屋　おやふこう",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市東区可知3-1-3",
+            "tel": "086-943-5666",
+            "regular_holiday": null,
+            "lat": 34.6586907,
+            "lng": 134.0024183
+        },
+        {
+            "name": "宣喜茶（センキチャ）",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区津島新野1-1-2　上林ビル1階",
+            "tel": "086-253-5133",
+            "regular_holiday": null,
+            "lat": 34.6819299,
+            "lng": 133.9195135
+        },
+        {
+            "name": "レトロ炭火焼肉　たろう食堂",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市北区今3-24-30",
+            "tel": "086-243-4649",
+            "regular_holiday": null,
+            "lat": 34.6471734,
+            "lng": 133.8914505
+        },
+        {
+            "name": "milenga",
+            "type": [
+                "indian"
+            ],
+            "address": "岡山県岡山市北区野田屋町1-3-3　岡ビル1F",
+            "tel": "086-206-2289",
+            "regular_holiday": null,
+            "lat": 34.6669556,
+            "lng": 133.9231667
+        },
+        {
+            "name": "じゅんじの店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区田町2-12-18",
+            "tel": "086-233-5883",
+            "regular_holiday": null,
+            "lat": 34.6585559,
+            "lng": 133.9246382
+        },
+        {
+            "name": "うどん龍",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県岡山市北区奥田本町22-10　ウッドコート医大南１Ｆ１０３号",
+            "tel": "086-233-7110",
+            "regular_holiday": null,
+            "lat": 34.6450408,
+            "lng": 133.9204453
+        },
+        {
+            "name": "天然酵母パン&カフェ　TheMARKET",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区奉還町1-12-14",
+            "tel": "086-255-1100",
+            "regular_holiday": null,
+            "lat": 34.6694843,
+            "lng": 133.9185236
+        },
+        {
+            "name": "本陣屋",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県小田郡矢掛町東川面547-1",
+            "tel": "0866-82-1300",
+            "regular_holiday": null,
+            "lat": 34.6179796,
+            "lng": 133.5760468
+        },
+        {
+            "name": "焼き鳥喰快",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市神田1-6-35",
+            "tel": "086-446-5251",
+            "regular_holiday": null,
+            "lat": 34.5378027,
+            "lng": 133.7355041
+        },
+        {
+            "name": "あぶり亭",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県美作市湯郷547",
+            "tel": "090-6846-4198",
+            "regular_holiday": null,
+            "lat": 34.9928392,
+            "lng": 134.1342598
+        },
+        {
+            "name": "古民家cafe茶蔵（サクラ）",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県高梁市宇治町宇治1750",
+            "tel": "0866-29-2300",
+            "regular_holiday": null,
+            "lat": 34.8311595,
+            "lng": 133.4921896
+        },
+        {
+            "name": "福祉喫茶夢ゆめ",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県笠岡市九番町1-22",
+            "tel": "0865-63-6633",
+            "regular_holiday": null,
+            "lat": 34.4950555,
+            "lng": 133.5193566
+        },
+        {
+            "name": "ル・メルシェ　カフェ",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区大元上町8-33",
+            "tel": "086-244-4810",
+            "regular_holiday": null,
+            "lat": 34.6499775,
+            "lng": 133.8997361
+        },
+        {
+            "name": "焼肉亭　桂　倉敷駅前店",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県倉敷市阿知1-3-3",
+            "tel": "086-697-5529",
+            "regular_holiday": null,
+            "lat": 34.6033593,
+            "lng": 133.7685298
+        },
+        {
+            "name": "焼肉亭　桂　倉敷本店",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県倉敷市新田3207-1",
+            "tel": "086-422-4129",
+            "regular_holiday": null,
+            "lat": 34.5742585,
+            "lng": 133.7805551
+        },
+        {
+            "name": "穏食酒家　うおつぼ",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県岡山市中区中井1-2-5",
+            "tel": "086-275-4278",
+            "regular_holiday": null,
+            "lat": 34.6838072,
+            "lng": 133.9594283
+        },
+        {
+            "name": "Ｇａｙａ　Ｇａｙａ（ガヤガヤ）",
+            "type": [
+                "curry"
+            ],
+            "address": "岡山県倉敷市松島1067-1",
+            "tel": "086-463-3993",
+            "regular_holiday": null,
+            "lat": 34.6285902,
+            "lng": 133.8070805
+        },
+        {
+            "name": "鱗友酒場らんたん",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区平和町5-21",
+            "tel": "086-235-5815",
+            "regular_holiday": null,
+            "lat": 34.6639335,
+            "lng": 133.9230822
+        },
+        {
+            "name": "割烹　石井",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県倉敷市船穂町船穂2413-2",
+            "tel": "086-552-3631",
+            "regular_holiday": null,
+            "lat": 34.5848049,
+            "lng": 133.6942427
+        },
+        {
+            "name": "そば処甚五呂",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県岡山市北区昭和町9-15",
+            "tel": "086-253-9706",
+            "regular_holiday": null,
+            "lat": 34.6638675,
+            "lng": 133.9117335
+        },
+        {
+            "name": "岡山地ビール市場蔵びあ亭",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市本町3-12",
+            "tel": "086-441-0707",
+            "regular_holiday": null,
+            "lat": 34.5962785,
+            "lng": 133.772399
+        },
+        {
+            "name": "三好",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県真庭市上水田5430-1",
+            "tel": "0866-52-3511",
+            "regular_holiday": null,
+            "lat": 34.9755177,
+            "lng": 133.650585
+        },
+        {
+            "name": "食堂東山（那岐山荘）",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県勝田郡奈義町高円1753-1",
+            "tel": "0868-36-8041",
+            "regular_holiday": null,
+            "lat": 35.129321,
+            "lng": 134.191368
+        },
+        {
+            "name": "桃太郎ずし",
+            "type": [
+                "sushi"
+            ],
+            "address": "岡山県岡山市南区あけぼの町4-15",
+            "tel": "086-263-9350",
+            "regular_holiday": null,
+            "lat": 34.6069607,
+            "lng": 133.9424674
+        },
+        {
+            "name": "喫茶イエス",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県倉敷市児島小川町3688-7",
+            "tel": "086-472-9536",
+            "regular_holiday": null,
+            "lat": 34.4673832,
+            "lng": 133.8101718
+        },
+        {
+            "name": "焼肉タンゴ",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市南区築港新町2-12-27",
+            "tel": "086-263-6269",
+            "regular_holiday": null,
+            "lat": 34.6034652,
+            "lng": 133.9368049
+        },
+        {
+            "name": "ティーガーデン　スワン",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市東区瀬戸町沖278-3",
+            "tel": "086-952-0775",
+            "regular_holiday": null,
+            "lat": 34.7201085,
+            "lng": 134.0450176
+        },
+        {
+            "name": "バーバリー",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県倉敷市加須山644",
+            "tel": "086-428-8377",
+            "regular_holiday": null,
+            "lat": 34.5846675,
+            "lng": 133.7965012
+        },
+        {
+            "name": "コリアンダイニング貴仙",
+            "type": [
+                "korean"
+            ],
+            "address": "岡山県倉敷市神田3-9-13",
+            "tel": "086-444-6400",
+            "regular_holiday": null,
+            "lat": 34.5410738,
+            "lng": 133.7288036
+        },
+        {
+            "name": "手打うどん　おおもり",
+            "type": [
+                "sobaudon"
+            ],
+            "address": "岡山県岡山市北区高松原古才497-13",
+            "tel": "086-287-6957",
+            "regular_holiday": null,
+            "lat": 34.6851597,
+            "lng": 133.8241855
+        },
+        {
+            "name": "美味　一𠮷（イチヨシ）",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区平和町6-9",
+            "tel": "086-234-1111",
+            "regular_holiday": null,
+            "lat": 34.6637075,
+            "lng": 133.9239918
+        },
+        {
+            "name": "ＡＤＬＥＲ　ＣＯＦＦＥＥ",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区丸の内1-14-5",
+            "tel": "080-3053-1180",
+            "regular_holiday": null,
+            "lat": 34.662681,
+            "lng": 133.9318073
+        },
+        {
+            "name": "てっぱんひろし",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区田町1-2-5　ラリックビル1F",
+            "tel": "086-224-3789",
+            "regular_holiday": null,
+            "lat": 34.6623622,
+            "lng": 133.9248432
+        },
+        {
+            "name": "活美総楽はし本",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県総社市中央1-21-107",
+            "tel": "0866-93-7755",
+            "regular_holiday": null,
+            "lat": 34.6717838,
+            "lng": 133.7471197
+        },
+        {
+            "name": "旬や酒処　若大将",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区柳町1-2-8　大樹ビル1F",
+            "tel": "086-232-0122",
+            "regular_holiday": null,
+            "lat": 34.6596676,
+            "lng": 133.9202496
+        },
+        {
+            "name": "ピッツェリアラ・チェネッタ",
+            "type": [
+                "itarian"
+            ],
+            "address": "岡山県倉敷市船倉町1700　富田ビル1F",
+            "tel": "086-434-3069",
+            "regular_holiday": null,
+            "lat": 34.5942332,
+            "lng": 133.7743056
+        },
+        {
+            "name": "炭火台所　さらり　今店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区今4-15-21　イヌカイビル1F",
+            "tel": "086-245-8881",
+            "regular_holiday": null,
+            "lat": 34.6449499,
+            "lng": 133.8915142
+        },
+        {
+            "name": "お食事処むねよし",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県赤磐市桜が丘東2-2-671",
+            "tel": "086-995-2584",
+            "regular_holiday": null,
+            "lat": 34.7771604,
+            "lng": 134.0449969
+        },
+        {
+            "name": "居酒屋華船",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区庭瀬187-9",
+            "tel": "080-2891-0220",
+            "regular_holiday": null,
+            "lat": 34.6491787,
+            "lng": 133.8525007
+        },
+        {
+            "name": "日々のごはんハナレ",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区清輝本町6-19",
+            "tel": "086-206-3560",
+            "regular_holiday": null,
+            "lat": 34.6512283,
+            "lng": 133.9266414
+        },
+        {
+            "name": "おだ珈琲店",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県岡山市北区中山下1-9-40　新岡山ビル地下",
+            "tel": "086-233-3568",
+            "regular_holiday": null,
+            "lat": 34.66267,
+            "lng": 133.927542
+        },
+        {
+            "name": "スターバックス　天満屋倉敷店",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県倉敷市阿知1-7-1　天満屋倉敷店2F",
+            "tel": "086-430-0027",
+            "regular_holiday": null,
+            "lat": 34.6018249,
+            "lng": 133.7670095
+        },
+        {
+            "name": "中国料理　鳥竜",
+            "type": [
+                "chinese"
+            ],
+            "address": "岡山県倉敷市連島町西之浦685",
+            "tel": "086-446-7581",
+            "regular_holiday": null,
+            "lat": 34.550173,
+            "lng": 133.7106328
+        },
+        {
+            "name": "山冨士　中央店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県岡山市北区田町2-12-19",
+            "tel": "086-224-8022",
+            "regular_holiday": null,
+            "lat": 34.6585553,
+            "lng": 133.9244161
         }
     ],
     "names": [
@@ -38306,7 +41210,271 @@
         "Ｂ三共",
         "田中屋",
         "ビストロ　ヤマシタ",
-        "串揚　山留"
+        "串揚　山留",
+        "とりでい西口店",
+        "えびめしや笹沖店",
+        "焼肉レストラン　巨城里",
+        "築地銀だこ　イオンモール岡山店",
+        "LUCE  wine&tapas",
+        "吾妻寿司　さんすて岡山店",
+        "池田本店よねひろ亭",
+        "幸楽",
+        "バーコントワール",
+        "くわん屋evolution",
+        "民宿あけぼの",
+        "焼肉和平　倉敷笹沖店",
+        "旬魚肉菜いなか家本店",
+        "フジヤマドラゴン岡山本店",
+        "29〇TOKYO岡山駅前店（ニクマルトウキョウ）",
+        "下西川町酒場はね黒",
+        "Bacaro",
+        "豊前うどん　いしば志",
+        "岡田鮮魚店",
+        "まえじま牡蠣小屋",
+        "ＪＡ晴れの国岡山　あしん広場　焼肉・千屋牛",
+        "当新田食堂",
+        "ワインと洋食のお店BuenaVista",
+        "DotCafe",
+        "せんべや",
+        "ピッツェリアチッチョ",
+        "らーめんふぁみりー久世店",
+        "らーめんふぁみりー岡山店",
+        "倉敷食堂バル",
+        "レストランおみつ",
+        "鉄板焼き工房　煉",
+        "吉備土手下麦酒　普段呑み場",
+        "オーベルジュ",
+        "ほっとたいむ",
+        "ｃａｆｅ　晴風船",
+        "古民家珈琲大多羅庵",
+        "大門寿し",
+        "ワタナベ食堂",
+        "旬菜ワタナベ",
+        "華作",
+        "下津井港",
+        "あぶと倉敷館",
+        "めん六や  岡山笠岡店",
+        "武田屋七生",
+        "めん六や  岡山津山店",
+        "ｂｉｓｔｒｏ　武田屋",
+        "めん六や  岡山真備店",
+        "新倉敷食堂",
+        "めん六や  岡山院庄店",
+        "岡山原尾島食堂",
+        "ＹＡＫＩＮＩＫＵぶん",
+        "できたておむすび米米　岡北店",
+        "めん六や  東岡山店",
+        "旬の味臼山",
+        "めん六や  児島店",
+        "自然料理とワインＣＵＯＲＥ",
+        "味心逆瀬川",
+        "焼肉大山食堂",
+        "とり旬",
+        "中国料理　おふろ",
+        "旬彩一の蔵",
+        "タイ料理バンコク",
+        "焼肉亭　桂かじゅある",
+        "三松食堂",
+        "Ｃｏｆｆｅｅ　Ｒｏａｓｔ　ＣＯＣＨＩ",
+        "創菜や　わびすけ",
+        "おおもり",
+        "和食にしざき",
+        "タータンチェック",
+        "焼肉花いちもんめ",
+        "庵々",
+        "うまいもんあるもに",
+        "お食事処　たき",
+        "海の料理らいでん",
+        "鉄板屋　桃太郎",
+        "軽食喫茶　多都味",
+        "居酒屋厨",
+        "洋風厨房　五感",
+        "喫茶フリーク",
+        "満天茶屋",
+        "喫茶軽食プラザ",
+        "高山鮮魚店",
+        "焼肉ぽんきっき",
+        "韓国料理・焼肉　蓮玉",
+        "だんだん亭",
+        "キッチン喫茶きゃろっと亭",
+        "旬工房",
+        "佑佐喜屋",
+        "喫茶　カニドン",
+        "さくら屋",
+        "炭火焼居酒屋　宮尾",
+        "活魚料理海舟",
+        "Ｋ’ｓ　ＧＡＲＤＥＮ　ケーズ・ガーデン",
+        "焼肉坂本",
+        "浅口劇場",
+        "てんぷら千の種",
+        "２０３ｃａｆｅ",
+        "カフェ碧い森",
+        "焼肉ジュージュー",
+        "野菜食堂　こやま",
+        "早島町いかしの舎",
+        "お好み焼サッチャン　サッチャンやきそば",
+        "なか卯　岡山中山下店",
+        "なか卯　岡山下石井店",
+        "ARIZONO",
+        "なか卯　倉敷黒崎店",
+        "和食　旭",
+        "割烹う乃　",
+        "カフェ　バラード",
+        "あまのじゃく",
+        "焼肉　七福",
+        "La Pirata",
+        "居食家 エビス水産今店",
+        "おのしん",
+        "Bar Ric's Cafe'",
+        "お好み焼き嵯峨野中庄店",
+        "斗為巾(といきん)",
+        "喰処　介",
+        "ほっとたいむⅡ",
+        "市庁舎食堂",
+        "岡山藤田おにぎり茶屋",
+        "水島支所食堂",
+        "Ｇｒｉｄ　Ｋｉｔｃｈｅｎ",
+        "ばーる　ぼっこーね。",
+        "鮨竹",
+        "酒家　燦々亭",
+        "丸福酒店",
+        "はれお",
+        "焼肉・ハング",
+        "朝まで屋　中庄店",
+        "焼肉ことぶき",
+        "手打うどん　百年屋　和",
+        "焼肉　巨城里　田町店",
+        "カフェ・ベレーザ",
+        "成田家　平野店",
+        "穂浪",
+        "ココロの時間",
+        "稲荷　ときわや",
+        "想ひでの店　若草",
+        "もり",
+        "ｕｆｕ－ｕｆｕ",
+        "讃岐うどん　てん",
+        "天下一品　岡山西川原店",
+        "カフェLeaf",
+        "鷲羽山下電ホテル",
+        "鴨方グリーンホテル",
+        "みやけ亭",
+        "大衆酒場 串かつ三次",
+        "居酒屋ダイニング時宝堂",
+        "岡山コーヒー館グリーンスタイル和気",
+        "肉屋　久",
+        "キャンドル卓 渡邉邸",
+        "恵比寿屋",
+        "レストラン喫茶むぎわらぼうし",
+        "隠れ屋ごはん　夜いち。",
+        "善ぞう",
+        "お好み焼・鉄板焼　ねぎぼうず",
+        "天下一品　岡山大供店",
+        "天下一品　倉敷インター店",
+        "天下一品　岡山洲崎店",
+        "お好み焼き　まつお",
+        "お好み焼　あっちゃん",
+        "ｐｉｃｃｏｌｏ　ｔｅｒｒａｃｅ",
+        "麵や倉敷",
+        "三岳屋",
+        "デプレカフェ",
+        "桂屋",
+        "炭焼職人",
+        "めん六や  岡山倉敷中島店",
+        "民宿よしだ",
+        "焼肉ふたば（二葉精肉店）",
+        "中華　啓ちゃん",
+        "焼肉中村屋　妹尾店",
+        "居酒屋はくび",
+        "玉広",
+        "ラトゥリエ　ドゥ　ニニキネ岡山　山陽新聞本社ビル店",
+        "備前洲崎八右衛門",
+        "サンマルクカフェ　イオンモール倉敷店",
+        "ずんどう屋　岡山平井店",
+        "RACCOS　BURGER",
+        "中華台湾料理　花とら",
+        "炉端焼き だんけ ",
+        "PIZZERIA澪-MIO-",
+        "珈琲と人",
+        "森ノナカノカフェ",
+        "ずんどう屋　倉敷神田店",
+        "焼肉しゃんぼうる",
+        "山のピザ屋　ぷらてりーあ",
+        "うおじま",
+        "morefruits（モアフル）",
+        "かがしや",
+        "UPINNカフェ",
+        "レストランまつもと",
+        "ピーズガーデン",
+        "万料理　みずぐち",
+        "お好み焼き静香",
+        "荷葉（カヨウ）",
+        "瑪蜜黛（モミトイ） 天満屋岡山店",
+        "Osteria la Ricetta",
+        "スパイスカフェぷくぷく",
+        "炙り家",
+        "三枚目  貝柱海老蔵",
+        "花味庄屋",
+        "やきとん　くわな",
+        "中華そば　こうた",
+        "お食事処　彩織",
+        "かどのみせトキ",
+        "居酒屋　一休",
+        "魚定",
+        "讃岐の男うどん能勢",
+        "焼肉亭　桂",
+        "せんはち",
+        "うどん　くうかい",
+        "にっこりあ",
+        "瀬戸内フルーツガーデン",
+        "バールーベ",
+        "串まん 中庄店",
+        "gallery with cafe PeLOTON（プロトン）",
+        "cafe themarket maimai",
+        "kitchen ekubo",
+        "居酒屋　おやふこう",
+        "宣喜茶（センキチャ）",
+        "レトロ炭火焼肉　たろう食堂",
+        "milenga",
+        "じゅんじの店",
+        "うどん龍",
+        "天然酵母パン&カフェ　TheMARKET",
+        "本陣屋",
+        "焼き鳥喰快",
+        "あぶり亭",
+        "古民家cafe茶蔵（サクラ）",
+        "福祉喫茶夢ゆめ",
+        "ル・メルシェ　カフェ",
+        "焼肉亭　桂　倉敷駅前店",
+        "焼肉亭　桂　倉敷本店",
+        "穏食酒家　うおつぼ",
+        "Ｇａｙａ　Ｇａｙａ（ガヤガヤ）",
+        "鱗友酒場らんたん",
+        "割烹　石井",
+        "そば処甚五呂",
+        "岡山地ビール市場蔵びあ亭",
+        "三好",
+        "食堂東山（那岐山荘）",
+        "桃太郎ずし",
+        "喫茶イエス",
+        "焼肉タンゴ",
+        "ティーガーデン　スワン",
+        "バーバリー",
+        "コリアンダイニング貴仙",
+        "手打うどん　おおもり",
+        "美味　一𠮷（イチヨシ）",
+        "ＡＤＬＥＲ　ＣＯＦＦＥＥ",
+        "てっぱんひろし",
+        "活美総楽はし本",
+        "旬や酒処　若大将",
+        "ピッツェリアラ・チェネッタ",
+        "炭火台所　さらり　今店",
+        "お食事処むねよし",
+        "居酒屋華船",
+        "日々のごはんハナレ",
+        "おだ珈琲店",
+        "スターバックス　天満屋倉敷店",
+        "中国料理　鳥竜",
+        "山冨士　中央店"
     ],
     "categories": {
         "all": "すべて",
