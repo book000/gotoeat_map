@@ -31,7 +31,7 @@
 | 11 | 03～05時 | 埼玉県 | 2020/10/28 | HTML | 店名・住所・郵便番号 | [Link](https://saitama-goto-eat.com) | [Link](https://book000.github.io/gotoeat_map/11_saitama/) |  |
 | 12 | 03～05時 | 千葉県 | 2020/10/28 | JSON | 店名・住所・電話番号・緯度・経度 | [Link](https://www.chiba-gte.jp/) | [Link](https://book000.github.io/gotoeat_map/12_chiba/) |  |
 | 13 | 06～08時 | 東京都 |  |  |  | [Link](https://r.gnavi.co.jp/plan/campaign/gotoeat-tokyo/) |  | 販売・利用開始 2020/11/20 |
-| 14 | 06～08時 | 神奈川県 | 2020/11/04 | JSON | 店名・住所・電話番号・緯度・経度 | [Link](https://www.kanagawa-gte.jp/) | [Link](https://book000.github.io/gotoeat_map/14_kanagawa/) |  |
+| 14 | 06～08時 | 神奈川県 |  |  |  | [Link](https://www.kanagawa-gte.jp/) |  | 2020/11/02公開予定 |
 | 15 | 06～08時 | 新潟県 | 2020/10/29 | HTML | 店名・店ジャンル・エリア・住所・郵便番号・電話番号 | [Link](https://niigata-gte.com/) | [Link](https://book000.github.io/gotoeat_map/15_niigata/) |  |
 | 16 | 06～08時 | 富山県 | 2020/10/29 | HTML (リスト) | 店名・店ジャンル・住所・電話番号・営業時間・定休日 | [Link](https://toyamagotoeat.jp/) | [Link](https://book000.github.io/gotoeat_map/16_toyama/) |  |
 | 17 | 06～08時 | 石川県 |  | HTML (リスト) |  | [Link](https://ishikawa-gotoeat-cpn.com/) |  | 住所情報未提供のため見送り |
