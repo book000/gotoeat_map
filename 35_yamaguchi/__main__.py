@@ -31,7 +31,6 @@ def main():
         print("----- Page {page} -----".format(page=page))
         html = requests.get(
             "https://gotoeat-yamaguchi.com/use/page/{page}/?post_type=post&s".format(page=page))
-        html.encoding = html.apparent_encoding
         soup = BeautifulSoup(html.content, "html.parser")
         lists = soup.find("ul", {"id": "shop-list"}
                           ).findChildren("li", recursive=False)

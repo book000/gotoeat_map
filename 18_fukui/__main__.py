@@ -27,7 +27,6 @@ def main():
 
     html = requests.post(
         "https://gotoeat-fukui.com/shop/search.php", {"Keyword": "", "Action": "text_search"})
-    html.encoding = html.apparent_encoding
     soup = BeautifulSoup(html.content, "html.parser")
     lists = soup.find("div", {"class": "result"}).find("ul").findChildren(
         "li", recursive=False)
@@ -52,7 +51,6 @@ def main():
         time.sleep(1)
         html = requests.get(
             "https://gotoeat-fukui.com/shop/?id={merchant_id}".format(merchant_id=merchant_id))
-        html.encoding = html.apparent_encoding
         soup = BeautifulSoup(html.content, "html.parser")
 
         merchant_name = soup.find("h3").text.strip()

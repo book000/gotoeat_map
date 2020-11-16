@@ -31,7 +31,6 @@ def main():
         print("----- Page {page} -----".format(page=page))
         html = requests.get(
             "https://goto-eat.weare.osaka-info.jp/gotoeat/page/{page}/?search_element_0_0=2&search_element_0_1=3&search_element_0_2=4&search_element_0_3=5&search_element_0_4=6&search_element_0_5=7&search_element_0_6=8&search_element_0_7=9&search_element_0_8=10&search_element_0_9=11&search_element_0_cnt=10&search_element_1_cnt=17&search_element_2_cnt=1&s_keyword_3&cf_specify_key_3_0=gotoeat_shop_address01&cf_specify_key_3_1=gotoeat_shop_address02&cf_specify_key_3_2=gotoeat_shop_address03&cf_specify_key_length_3=2&csp=search_add&feadvns_max_line_0=4&fe_form_no=0".format(page=page))
-        html.encoding = html.apparent_encoding
         soup = BeautifulSoup(html.content, "html.parser")
         lists = soup.find("div", {"class": "search_result_box"}).find(
             "ul").findChildren("li", recursive=False)
