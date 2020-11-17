@@ -6,16 +6,17 @@ import traceback
 from github import Github
 
 
-def createIssue(title, content):
+def createOrCommentIssue(title, content):
     g = Github(os.environ.get("TOKEN"))
     repo = g.get_repo(os.environ.get("GITHUB_REPOSITORY"))
 
     open_issues = repo.get_issues(state="open")
     for issue in open_issues:
         if issue.title == title:
+            issue.create_comment(content)
             return
 
-    repo.create_issue(title=title, body=content)
+    repo.create_issue(title=title, body=content, assignee="book000")
 
 
 prefectures = [
@@ -100,7 +101,7 @@ for prefecture in prefectures[math.floor(dt.hour / 3)]:
         trace = traceback.format_exc()
         print(trace)
         traceLast = [x for x in trace.split("\n") if x][-1]
-        createIssue(
+        createOrCommentIssue(
             "[" + prefecture + "] " + traceLast,
             "GitHub Run ID: `{github_run_id}`\nGitHub Run Number: `{github_run_number}`\nGitHub Action ID: `{github_action_id}`\nTrace: \n```\n{trace}\n```".format(
                 github_run_id=os.environ.get("GITHUB_RUN_ID"),
