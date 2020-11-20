@@ -50,33 +50,38 @@ def main():
                 r"〒([0-9\-]+) (.+)MAP", r"\1", _merchant_address).strip()
             merchant_address = re.sub(
                 r"〒([0-9\-]+) (.+)MAP", r"\2", _merchant_address).strip()
+            merchant_tel = None
             if merchant.find("p", {"class": "tel"}) != None:
                 merchant_tel = merchant.find(
                     "p", {"class": "tel"}).text.strip()
 
-            latlng = merchant.find("p", {"class": "add"}).find("a").get("href")
-            lat = re.sub(
-                r"^.+maps\/(?:place|search)\/(.+)\/@([0-9\.]+),([0-9\.]+),([0-9\.]+)z.*$",
-                r"\2",
-                latlng)
-            if lat == latlng:
-                lat = None
-            lng = re.sub(
-                r"^.+maps\/(?:place|search)\/(.+)\/@([0-9\.]+),([0-9\.]+),([0-9\.]+)z.*$",
-                r"\3",
-                latlng)
-            if lng == latlng:
-                lng = None
-
             print(merchant_name + " - " + merchant_address)
-            print(str(lat) + " " + str(lng))
-            findMerchants.append(merchant_name)
-
-            if lat == None or lng == None:
-                print(latlng)
-
             if merchant_name in merchants["names"]:
                 continue
+
+            if merchant.find("p", {"class": "add"}).find("a") != None:
+                latlng = merchant.find(
+                    "p", {"class": "add"}).find("a").get("href")
+                lat = re.sub(
+                    r"^.+maps\/(?:place|search)\/(.+)\/@([0-9\.]+),([0-9\.]+),([0-9\.]+)z.*$",
+                    r"\2",
+                    latlng)
+                if lat == latlng:
+                    lat = None
+                lng = re.sub(
+                    r"^.+maps\/(?:place|search)\/(.+)\/@([0-9\.]+),([0-9\.]+),([0-9\.]+)z.*$",
+                    r"\3",
+                    latlng)
+                if lng == latlng:
+                    lng = None
+
+                if lat == None or lng == None:
+                    print(latlng)
+            else:
+                lat, lng = getLatLng(merchant_address)
+
+            print(str(lat) + " " + str(lng))
+            findMerchants.append(merchant_name)
 
             if lat == None or lng == None:
                 lat, lng = getLatLng(merchant_address)
