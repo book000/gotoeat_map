@@ -7,6 +7,15 @@
 
 - https://book000.github.io/gotoeat_map/
 
+## 追記 2020/11/20
+
+2020/10/26の時点ですでに企業レベルでGo To Eat MAPというサービスが開始されていたようです。こちらの方が使いやすいかも。  
+このプロジェクトも多少バグフィックスは継続するつもりですが、新規利用開始の更新まで対応するかは未定です。
+
+- [Go To Eat MAP (α)](https://go-to-eat-map.com/)
+- [jiji.comによる記事](https://www.jiji.com/jc/article?k=000000002.000057162&g=prt)
+- [AME&Company株式会社によるプレスリリース](https://prtimes.jp/main/html/rd/p/000000002.000057162.html)
+
 ## 取得処理仕様
 
 3時間毎に、6都道府県ずつに分けた都道府県グループをそれぞれ実行する。
