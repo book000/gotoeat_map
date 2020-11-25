@@ -15,6 +15,12 @@ def createOrCommentIssue(title, content):
         if issue.title == title:
             issue.create_comment(content)
             return
+    closed_issues = repo.get_issues(state="closed")
+    for issue in closed_issues:
+        if issue.title == title:
+            issue.edit(state="open")
+            issue.create_comment(content)
+            return
 
     repo.create_issue(title=title, body=content, assignee="book000")
 
