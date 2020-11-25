@@ -109,7 +109,7 @@ for prefecture in prefectures[math.floor(dt.hour / 3)]:
         traceLast = [x for x in trace.split("\n") if x][-1]
         createOrCommentIssue(
             "[" + prefecture + "] " + traceLast,
-            "GitHub Run ID: `{github_run_id}`\nGitHub Run Number: `{github_run_number}`\nGitHub Action ID: `{github_action_id}`\nTrace: \n```\n{trace}\n```".format(
+            "GitHub Run ID: `{github_run_id}`\nGitHub Run Number: `{github_run_number}`\nGitHub Action ID: `{github_action_id}`\nTrace: \n```\n{trace}\n```https://github.com/book000/gotoeat_map/actions/runs/{github_run_id}".format(
                 github_run_id=os.environ.get("GITHUB_RUN_ID"),
                 github_run_number=os.environ.get("GITHUB_RUN_NUMBER"),
                 github_action_id=os.environ.get("GITHUB_ACTION"),
