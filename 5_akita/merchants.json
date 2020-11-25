@@ -1051,7 +1051,6 @@
         "そば処風月",
         "とんもと",
         "Bra&snack愛里",
-        "びっくりドンキー　山王臨海店",
         "FRIES HOUSE SANZAEMON",
         "北海道レストラン　秋田店",
         "みどり寿司",
@@ -10520,15 +10519,6 @@
             "url": null,
             "lat": "39.38816857",
             "lng": "140.05257820"
-        },
-        {
-            "name": "びっくりドンキー　山王臨海店",
-            "area": "秋田市",
-            "address": "秋田市川尻町大川反 233-216",
-            "tel": "018-883-0115",
-            "url": "https://www.bikkuri-donkey.com/shop/detail.html?sh=2152&pref=akita",
-            "lat": "39.71359382",
-            "lng": "140.08752107"
         },
         {
             "name": "FRIES HOUSE SANZAEMON",
