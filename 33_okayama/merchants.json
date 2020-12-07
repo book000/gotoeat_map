@@ -12640,17 +12640,6 @@
             "lng": 133.9148777
         },
         {
-            "name": "Stella Cafe ",
-            "type": [
-                "restaurant"
-            ],
-            "address": "岡山県備前市日生町日生648-48",
-            "tel": "0869-72-4330",
-            "regular_holiday": null,
-            "lat": 34.7285511,
-            "lng": 134.2749651
-        },
-        {
             "name": "星乃珈琲店　倉敷中庄店",
             "type": [
                 "cafe"
@@ -42942,6 +42931,17 @@
             "regular_holiday": null,
             "lat": 34.64389874637955,
             "lng": 133.88674646615982
+        },
+        {
+            "name": "Stella Cafe",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県備前市日生町日生６４８−４８",
+            "tel": "0869-72-4330",
+            "regular_holiday": null,
+            "lat": 34.728351854362145,
+            "lng": 134.2751169204712
         }
     ],
     "names": [
@@ -44094,7 +44094,6 @@
         "にぎり処　貫太のすし",
         "焼肉ダイニングはちや本町店",
         "KAKKY’ｓBAR",
-        "Stella Cafe ",
         "星乃珈琲店　倉敷中庄店",
         "割烹なかた",
         "焼き肉　みずの手",
@@ -46848,7 +46847,8 @@
         "鬼の城うどん",
         "総社らぁめん　鬼の城",
         "岡山餃子製作所",
-        "Bisttoria Hi-Five"
+        "Bisttoria Hi-Five",
+        "Stella Cafe"
     ],
     "categories": {
         "all": "すべて",
