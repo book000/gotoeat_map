@@ -14248,15 +14248,6 @@
             "lng": "136.65071655"
         },
         {
-            "name": "Flair & Dining Bar Flora",
-            "type": "居酒屋・和食",
-            "address": "金沢市片町2丁目21-18　3F",
-            "postal_code": "〒920-0981",
-            "tel": "TEL.076-221-1011",
-            "lat": "36.55929719",
-            "lng": "136.65071655"
-        },
-        {
             "name": "flora",
             "type": "その他",
             "address": "金沢市片町一丁目8ー1片町シャンテビル4階",
@@ -19349,15 +19340,6 @@
             "tel": "TEL.0761-23-3151",
             "lat": "36.39077659",
             "lng": "136.44999598"
-        },
-        {
-            "name": "Aladdin2",
-            "type": "その他",
-            "address": "小松市符津町レ24-4",
-            "postal_code": "〒923-0302",
-            "tel": "TEL.0761-43-4433",
-            "lat": "36.36044607",
-            "lng": "136.42857439"
         },
         {
             "name": "ANA FESTA 小松ゲート店",
@@ -33238,7 +33220,6 @@
         "DORUMIRU.kanazawa",
         "esnica",
         "Flair&DiningBar Flora",
-        "Flair & Dining Bar Flora",
         "flora",
         "FOODCLUB",
         "FUMUROYACAFE 香林坊大和店",
@@ -33805,7 +33786,6 @@
         "和食処せん味",
         "和食麺処サガミ小松店",
         "和食屋南",
-        "Aladdin2",
         "ANA FESTA 小松ゲート店",
         "ARU",
         "Bar Avanti",
