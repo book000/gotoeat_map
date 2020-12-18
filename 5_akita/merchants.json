@@ -1125,7 +1125,6 @@
         "炭火焼鳥かしらや",
         "麺工房かい星",
         "ラーメンニューとん太",
-        "検索用",
         "ANDY'S COCKTAIL AND WHISKY HOUSE",
         "イタリア厨房ナガア",
         "ミート&デリカ　一力"
@@ -11255,15 +11254,6 @@
             "url": null,
             "lat": "39.89989129",
             "lng": "139.94279902"
-        },
-        {
-            "name": "検索用",
-            "area": "市町村名",
-            "address": "住所",
-            "tel": "電話番号",
-            "url": "店舗WebサイトURL",
-            "lat": null,
-            "lng": null
         },
         {
             "name": "ANDY'S COCKTAIL AND WHISKY HOUSE",
