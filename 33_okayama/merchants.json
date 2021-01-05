@@ -43679,6 +43679,105 @@
             "regular_holiday": null,
             "lat": 34.69457786227477,
             "lng": 133.90237167477608
+        },
+        {
+            "name": "burrent.",
+            "type": [
+                "diningbar"
+            ],
+            "address": "岡山県岡山市北区表町１丁目１−４５",
+            "tel": "086-234-0151",
+            "regular_holiday": null,
+            "lat": 34.66519796544409,
+            "lng": 133.9285272359848
+        },
+        {
+            "name": "たこQ",
+            "type": [
+                "okonomiyaki"
+            ],
+            "address": "岡山県岡山市北区西古松1-28-22号　ｻﾝｺｰﾎﾟ知辺1F102号",
+            "tel": "086-244-7199",
+            "regular_holiday": null,
+            "lat": 34.6503925,
+            "lng": 133.9056087
+        },
+        {
+            "name": "焼き鳥喰快岡山店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区表町1-7-25",
+            "tel": "086-234-5252",
+            "regular_holiday": null,
+            "lat": 34.6628939,
+            "lng": 133.9302002
+        },
+        {
+            "name": "倉敷プリン",
+            "type": [
+                "sweets"
+            ],
+            "address": "岡山県岡山県倉敷市本町6-17",
+            "tel": "086-425-1106",
+            "regular_holiday": null,
+            "lat": 34.5945354,
+            "lng": 133.7724177
+        },
+        {
+            "name": "季菜家",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県岡山市北区平和町４−１１",
+            "tel": "086-237-4777",
+            "regular_holiday": null,
+            "lat": 34.66421624992418,
+            "lng": 133.92380453646183
+        },
+        {
+            "name": "和洋ダイニング銀",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県倉敷市阿知2-4-6　ｾﾝﾁｭﾘｵﾝﾎﾃﾙ＆ｽﾊﾟ倉敷1F",
+            "tel": "086-441-3244",
+            "regular_holiday": null,
+            "lat": 34.6021335,
+            "lng": 133.7687537
+        },
+        {
+            "name": "THE CARNE",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区磨屋町7-26",
+            "tel": "086-206-1929",
+            "regular_holiday": null,
+            "lat": 34.6635073,
+            "lng": 133.9243339
+        },
+        {
+            "name": "こひよ",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県都窪郡早島町前潟５９６",
+            "tel": "086-483-0514",
+            "regular_holiday": null,
+            "lat": 34.603129583963465,
+            "lng": 133.83398339152336
+        },
+        {
+            "name": "AIIRO COFFEE STAND",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県井原市井原町1494-1",
+            "tel": "090-3914-1113",
+            "regular_holiday": null,
+            "lat": 34.6073075,
+            "lng": 133.4568483
         }
     ],
     "names": [
@@ -47652,7 +47751,16 @@
         "倉敷鶏屋まさるやん　平和町店",
         "倉敷鶏屋まさるやん　岡山田町店",
         "讃岐の男うどん問屋町テラス店",
-        "かめよそば"
+        "かめよそば",
+        "burrent.",
+        "たこQ",
+        "焼き鳥喰快岡山店",
+        "倉敷プリン",
+        "季菜家",
+        "和洋ダイニング銀",
+        "THE CARNE",
+        "こひよ",
+        "AIIRO COFFEE STAND"
     ],
     "categories": {
         "all": "すべて",
