@@ -41358,6 +41358,17 @@
             "regular_holiday": "日曜日",
             "lat": 34.6602010226832,
             "lng": 133.929092511535
+        },
+        {
+            "name": "ひるぜんベアバレースキー場",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県真庭市蒜山本茅部６４４−１０５",
+            "tel": "0867-66-5333",
+            "regular_holiday": "不定休",
+            "lat": 35.2612316294246,
+            "lng": 133.596303462982
         }
     ],
     "names": [
@@ -45120,7 +45131,8 @@
         "あずまや　原尾島店",
         "中華家庭料理　浩源",
         "天丼家　天吉",
-        "Craft Beer Dining & Cafe 麦酒島　-omotecho-"
+        "Craft Beer Dining & Cafe 麦酒島　-omotecho-",
+        "ひるぜんベアバレースキー場"
     ],
     "categories": {
         "all": "すべて",
