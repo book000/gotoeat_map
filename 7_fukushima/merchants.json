@@ -2861,12 +2861,12 @@
         "やまだや",
         "ラウンジパブレストラン 二光",
         "富田食肉店",
-        "beercafe thirdplace",
         "Soupcurry&Dining tipu",
         "Pub entrance Uzia",
         "八木",
         "インドカレー＆ナン　サーティ",
-        "市場直送鮮ごく"
+        "市場直送鮮ごく",
+        "beer cafe third place"
     ],
     "data": [
         {
@@ -22897,13 +22897,6 @@
             "lng": "140.46032626"
         },
         {
-            "name": "beercafe thirdplace",
-            "type": "バー・ダイニングバー",
-            "address": "会津若松市上町8-23　１F",
-            "lat": "37.49691597",
-            "lng": "139.93495624"
-        },
-        {
             "name": "Soupcurry&Dining tipu",
             "type": "バー・ダイニングバー",
             "address": "会津若松市東栄町6-24",
@@ -22937,6 +22930,13 @@
             "address": "郡山市駅前1-8-4　増花ビル2階",
             "lat": "37.39673241",
             "lng": "140.38592521"
+        },
+        {
+            "name": "beer cafe third place",
+            "type": "バー・ダイニングバー",
+            "address": "会津若松市上町8-23　１F",
+            "lat": "37.49691597",
+            "lng": "139.93495624"
         }
     ]
 }
