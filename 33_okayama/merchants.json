@@ -42634,6 +42634,105 @@
             "regular_holiday": "土・日・祝日",
             "lat": 34.6579711915938,
             "lng": 133.91959155163
+        },
+        {
+            "name": "鼎ー（ディンイー）",
+            "type": [
+                "chinese"
+            ],
+            "address": "岡山県岡山市北区下石井1-2-1　イオンモール岡山7階",
+            "tel": "086-230-5034",
+            "regular_holiday": null,
+            "lat": 34.6620824,
+            "lng": 133.9177261
+        },
+        {
+            "name": "port blanc KURASHIKI",
+            "type": [
+                "french"
+            ],
+            "address": "岡山県倉敷市阿知1-7-1　天満屋倉敷店６F",
+            "tel": "086-436-7470",
+            "regular_holiday": null,
+            "lat": 34.6018249,
+            "lng": 133.7670095
+        },
+        {
+            "name": "和食岐備KURASHIKI",
+            "type": [
+                "japanese"
+            ],
+            "address": "岡山県倉敷市阿知1-7-1　天満屋倉敷店６F",
+            "tel": "086-436-7490",
+            "regular_holiday": null,
+            "lat": 34.6018249,
+            "lng": 133.7670095
+        },
+        {
+            "name": "中華そば・大衆酒場 江本屋",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県岡山市北区表町2-3-6",
+            "tel": "090-8606-0340",
+            "regular_holiday": null,
+            "lat": 34.6621893,
+            "lng": 133.9300224
+        },
+        {
+            "name": "焼肉BAL　OWL（アウル）",
+            "type": [
+                "yakiniku"
+            ],
+            "address": "岡山県岡山市中区兼基40-2",
+            "tel": "086-201-2960",
+            "regular_holiday": null,
+            "lat": 34.6740015,
+            "lng": 133.9722197
+        },
+        {
+            "name": "Cafe Momodu（モモドゥ）",
+            "type": [
+                "cafe"
+            ],
+            "address": "岡山県赤磐市桜が丘西５丁目７−１",
+            "tel": "086-956-2820",
+            "regular_holiday": null,
+            "lat": 34.77972712478333,
+            "lng": 134.039046409298
+        },
+        {
+            "name": "餐休　中庄店",
+            "type": [
+                "ramen"
+            ],
+            "address": "岡山県倉敷市下庄469ー4",
+            "tel": "086-486-3739",
+            "regular_holiday": null,
+            "lat": 34.6397159,
+            "lng": 133.8246426
+        },
+        {
+            "name": "ALARA CURRY kinna momon（アララカリー）",
+            "type": [
+                "restaurant"
+            ],
+            "address": "岡山県岡山市北区本町３−２ セカンドビル 新八 1F奥",
+            "tel": "086-206-6089",
+            "regular_holiday": null,
+            "lat": 34.665048212140114,
+            "lng": 133.92166151807228
+        },
+        {
+            "name": "串かつみたか　倉敷店",
+            "type": [
+                "izakaya"
+            ],
+            "address": "岡山県倉敷市阿知2-7－6　すみれビル1F2F",
+            "tel": "090-1015-1761",
+            "regular_holiday": null,
+            "lat": 34.6001764,
+            "lng": 133.7688238
         }
     ],
     "names": [
@@ -46512,7 +46611,16 @@
         "山陽新聞販売 本店",
         "魚のてらさか",
         "旬遊和食おか野",
-        "山陽新聞社サービスセンター（山陽新聞旅行社）"
+        "山陽新聞社サービスセンター（山陽新聞旅行社）",
+        "鼎ー（ディンイー）",
+        "port blanc KURASHIKI",
+        "和食岐備KURASHIKI",
+        "中華そば・大衆酒場 江本屋",
+        "焼肉BAL　OWL（アウル）",
+        "Cafe Momodu（モモドゥ）",
+        "餐休　中庄店",
+        "ALARA CURRY kinna momon（アララカリー）",
+        "串かつみたか　倉敷店"
     ],
     "categories": {
         "all": "すべて",
