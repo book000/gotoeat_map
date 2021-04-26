@@ -24743,6 +24743,14 @@
             "postal_code": "860-0047",
             "lat": "32.78999545",
             "lng": "130.68886258"
+        },
+        {
+            "name": "ひご旬菜吉しょう",
+            "area": "熊本市",
+            "address": "熊本県熊本市中央区下通1丁目10番3号銀座プレイスKUMAMOTOビル8階",
+            "postal_code": "860-0807",
+            "lat": "32.80026675",
+            "lng": "130.70865779"
         }
     ],
     "names": [
@@ -27838,6 +27846,7 @@
         "とんかつ勝烈亭アミュプラザくまもと店",
         "チーズ＆ドリア.スイーツアミュプラザくまもと店",
         "INDIAN RESTAURANT BISHNU アミュプラザ くまもと店",
-        "The Seafood Beer Station KAEN"
+        "The Seafood Beer Station KAEN",
+        "ひご旬菜吉しょう"
     ]
 }
